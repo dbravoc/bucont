@@ -4,15 +4,14 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import lawitec from '../assets/img/Lawitec - Frame 8.jpeg'
 
 
 
 const navigation = [
   { name: 'Inicio', href: '#' },
-  { name: 'Soluciones', href: '#' },
-  { name: 'Portafolio', href: '#' },
-  { name: 'Metodología', href: '#' },
-  { name: 'Equipo', href: '#' },
+  { name: 'Servicios', href: '#servicios' },
+  { name: 'Portafolio', href: '#portafolio' },
   { name: 'Precios', href: '#' },
 
 ]
@@ -29,14 +28,14 @@ export default function Inicio() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-24 w-auto"
-                src='src/assets/img/Lawitec - Frame 8.jpg'
+                src= {lawitec}
                 alt=""
               />
             </a>
             <ul className='flex flex-col justify-center px-4 text-l font-extrabold text-black font-mono'>
               <li>Tu</li>
               <li>Partner</li>
-              <li className='text-indigo-700'>Tecnológico</li>
+              <li className='text-emerald-700'>Tecnológico</li>
             </ul>
           </div>
           <div className="flex lg:hidden">
@@ -71,7 +70,7 @@ export default function Inicio() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="https://tailwindui.com/img/logos/mark.svg?color=emerald&shade=600"
                   alt=""
                 />
               </a>
@@ -118,31 +117,27 @@ export default function Inicio() {
         </div>
         <div className="mx-auto pt-56 pb-44">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
-            <div className="relative rounded-full px-6 py-1 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Soluciones tecnológicas inspiradas en tu visión. {' '}
-              <a href="#" className="font-semibold text-indigo-600">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Revisa nuestra metodología
-              </a>
+            <div className="relative rounded-full px-6 py-1 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 font-bold">
+              Soluciones TI inspiradas en tu visión. {' '}
             </div>
           </div>
           <div className="text-left px-0">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              <span className='text-indigo-700'>Construimos soluciones tecnológicas web</span> inspiradas en tu visión empresarial.
+              <span className='text-emerald-700'>Construimos soluciones TI</span> inspiradas en tu visión empresarial.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            Nuestras soluciones basadas en tu visión empresarial, están diseñadas para resolver tus desafíos específicos. No solo enfrentamos tus necesidades actuales, sino que preparamos tu negocio para un futuro de crecimiento y éxito. Con <strong className='text-indigo-600'> Lawitec</strong>, estás invirtiendo en tecnología que entiende y potencia tu negocio.
+            Te entregamos soluciones basadas en tu visión empresarial, diseñadas a tu medida para resolver tus desafíos. No solo enfrentamos tus necesidades actuales, sino que preparamos tu negocio para un futuro de crecimiento y éxito. Con <strong className='text-emerald-600'> Lawitec</strong>, estás invirtiendo en tecnología que entiende y potencia tu negocio.
             </p>
             <div className="mt-10 flex items-center justify-left gap-x-6">
               <a
                 href="#"
-                className="rounded-md flex items-center bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md flex items-center bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
               >
                 <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-white text-3xl" /> Conversemos 
               </a>
               <a
                 href="#"
-                className="rounded-md flex items-center bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md flex items-center bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
               >
                 <FontAwesomeIcon icon={faStar} className="mr-2 text-white text-3xl" /> Ver portafolio 
               </a>

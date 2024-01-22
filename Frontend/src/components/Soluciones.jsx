@@ -38,10 +38,10 @@ const features = [
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 px-6 py-1">
           <div>
           <h1 className="text-4xl text-left font-bold tracking-tight text-gray-900 ">
-              Soluciones
+              Servicios
             </h1>
             <p className="text-left mt-6 text-lg leading-8 text-gray-600">
-            Ofrecemos una gama de soluciones digitales diseñadas para mejorar la eficiencia, la interactividad y la presencia en línea de su negocio. Desde la automatización de procesos hasta el desarrollo de sitios web personalizados, cada herramienta está cuidadosamente elaborada para impulsar el crecimiento y fortalecer la posición de su empresa en el mercado.</p>
+            Ofrecemos una gama de soluciones digitales diseñadas para mejorar la eficiencia, la interactividad y la presencia en línea de tu negocio. Desde la automatización de procesos hasta el desarrollo de sitios web personalizados, cada herramienta está cuidadosamente elaborada para impulsar el crecimiento y fortalecer la posición de su empresa en el mercado.</p>
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-4">
               {features.map((feature) => (
                 <div key={feature.name} className=" grid grid-cols-[3fr_7fr] sm:grid-cols-[1fr_9fr] border-t border-gray-200 pt-4">
@@ -49,7 +49,7 @@ const features = [
                     {feature.icon}
                   </div>
                   <div>
-                    <dt className="text-xl font-bold text-indigo-700">{feature.name}</dt>
+                    <dt className="text-xl font-bold text-emerald-700">{feature.name}</dt>
                     <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
                   </div>
                 </div>

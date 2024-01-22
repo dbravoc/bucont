@@ -1,3 +1,6 @@
+import cotizador from '../assets/img/Lawitec - Frame 13.jpg'
+import asistente from '../assets/img/Lawitec - Frame 14.jpg'
+import letrip from '../assets/img/Lawitec - Frame 15.png'
 
 
 import { CheckIcon } from '@heroicons/react/20/solid'
@@ -5,7 +8,7 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 const solutions = [
   {
     title: 'Cotizador web de proyectos solares',
-    description: 'Herramienta web que permite a los visitantes del sitio web oficial obtener estimaciones sobre los costos y beneficios de implementar energía solar en sus hogares...',
+    description: 'Herramienta web que permite a los visitantes del sitio web oficial obtener estimaciones sobre los costos y beneficios de implementar energía solar en sus hogares.',
     features: [
       'Integrado al sitio web oficial',
       'Cotizador automático con parámetros personalizados',
@@ -14,7 +17,7 @@ const solutions = [
       'Diseño a medida',
       'Táctica de marketing'    
     ],
-    imageUrl: 'src/assets/img/Lawitec - Frame 13.jpg',
+    imageUrl: cotizador,
     visitLink: '#'
   },
   {
@@ -28,20 +31,19 @@ const solutions = [
       'Base de Sales Qualified Leads',
       'Confidencialidad y seguridad de los datos'
     ],
-    imageUrl: 'src/assets/img/Lawitec - Frame 14.jpg',
+    imageUrl: asistente,
     visitLink: '#'
   },
   {
-    title: 'Marketplace de deportes',
-    description: 'Aplicación enfocado en la compra-venta de servicios de turismo relacionados con el deporte',
+    title: 'Marketplace de experiencias deportivas y naturaleza',
+    description: 'Aplicación enfocado en la compra-venta de servicios de turismos relacionados con experiencias deportivas y naturaleza',
     features: [
       'Integración con pasarelas de pago',
       'Reservas online',
       'Sistemas de calificación de compradores y vendedores',
-      'Interfaz Personalizable según Intereses Deportivos'
-      // ... otras características ...
+      'Interfaz Personalizable según intereses Deportivos'
     ],
-    imageUrl: 'src/assets/img/Lawitec - Frame 15.jpg',
+    imageUrl: letrip,
     visitLink: '#'
   }
 ];
@@ -51,10 +53,7 @@ export default function Portafolio() {
     <div className="bg-white py-24 px-6">
       <div className="mx-auto">
         <div className="mx-auto text-left">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Porafolio de soluciones construidas para nuestros clientes</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam...
-          </p>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Portafolio de soluciones construidas para nuestros clientes</h2>
         </div>
         {solutions.map((solution) => (
           <div key={solution.title} className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
@@ -64,7 +63,7 @@ export default function Portafolio() {
                 {solution.description}
               </p>
               <div className="mt-10 flex items-center gap-x-4">
-                <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">Características</h4>
+                <h4 className="flex-none text-sm font-semibold leading-6 text-emerald-600">Características</h4>
                 <div className="h-px flex-auto bg-gray-100" />
               </div>
               <ul
@@ -73,7 +72,7 @@ export default function Portafolio() {
               >
                 {solution.features.map((feature) => (
                   <li key={feature} className="flex gap-x-3">
-                    <CheckIcon className="h-6 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                    <CheckIcon className="h-6 w-5 flex-none text-emerald-600" aria-hidden="true" />
                     {feature}
                   </li>
                 ))}
@@ -85,7 +84,7 @@ export default function Portafolio() {
                   <img className='rounded-3xl' src={solution.imageUrl} alt="" />
                   <a
                     href={solution.visitLink}
-                    className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
+                    className="mt-10 block w-full rounded-md bg-emerald-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-emerald-500"
                   >
                     Visitar
                   </a>
