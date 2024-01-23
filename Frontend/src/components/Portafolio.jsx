@@ -6,20 +6,7 @@ import letrip from '../assets/img/Lawitec - Frame 15.png'
 import { CheckIcon } from '@heroicons/react/20/solid'
 
 const solutions = [
-  {
-    title: 'Cotizador web de proyectos solares',
-    description: 'Herramienta web que permite a los visitantes del sitio web oficial obtener estimaciones sobre los costos y beneficios de implementar energía solar en sus hogares.',
-    features: [
-      'Integrado al sitio web oficial',
-      'Cotizador automático con parámetros personalizados',
-      'Fuente de leads calificados',
-      'Eficiencia en funnel de ventas',
-      'Diseño a medida',
-      'Táctica de marketing'    
-    ],
-    imageUrl: cotizador,
-    visitLink: '#'
-  },
+
   {
     title: 'Asistente jurídico GPT para estudio de abogados',
     description: 'Herramienta para la generación de Sales Qualified Lead. Por medio de un asistente GPT, se resuelven consultas jurídicas para luego ser redirigidas con los abogados del estudio. De esta manera, se entrega un prospecto de cliente con mayor probabilidad de cierre.   ',
@@ -45,7 +32,21 @@ const solutions = [
     ],
     imageUrl: letrip,
     visitLink: 'https://letrip13012023-frontend.vercel.app/'
-  }
+  },
+  {
+    title: 'Cotizador web de proyectos solares',
+    description: 'Herramienta web que permite a los visitantes del sitio web oficial obtener estimaciones sobre los costos y beneficios de implementar energía solar en sus hogares.',
+    features: [
+      'Integrado al sitio web oficial',
+      'Cotizador automático con parámetros personalizados',
+      'Fuente de leads calificados',
+      'Eficiencia en funnel de ventas',
+      'Diseño a medida',
+      'Táctica de marketing'    
+    ],
+    imageUrl: cotizador,
+    visitLink: 'https://cotizador-ashy.vercel.app/'
+  },
 ];
 
 export default function Portafolio() {
