@@ -123,7 +123,7 @@ export default function Inicio() {
           </div>
           <div className="text-left px-0">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              <span className='text-emerald-700'>Construimos soluciones TI</span> inspiradas en tu visión empresarial.
+              <span className='text-emerald-700'>Construimos soluciones tecnológicas</span> inspiradas en tu visión empresarial.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
             Te entregamos soluciones basadas en tu visión empresarial, diseñadas a tu medida para resolver tus desafíos. No solo enfrentamos tus necesidades actuales, sino que preparamos tu negocio para un futuro de crecimiento y éxito. Con <strong className='text-emerald-600'> Lawitec</strong>, estás invirtiendo en tecnología que entiende y potencia tu negocio.

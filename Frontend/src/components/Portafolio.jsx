@@ -32,7 +32,7 @@ const solutions = [
       'Confidencialidad y seguridad de los datos'
     ],
     imageUrl: asistente,
-    visitLink: '#'
+    visitLink: 'https://asistentegpt.vercel.app/'
   },
   {
     title: 'Marketplace de experiencias deportivas y naturaleza',
@@ -44,7 +44,7 @@ const solutions = [
       'Interfaz Personalizable según intereses Deportivos'
     ],
     imageUrl: letrip,
-    visitLink: '#'
+    visitLink: 'https://letrip13012023-frontend.vercel.app/'
   }
 ];
 
