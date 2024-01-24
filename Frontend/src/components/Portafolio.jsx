@@ -8,7 +8,7 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 const solutions = [
 
   {
-    title: 'Asistente jurídico GPT para estudio de abogados',
+    title: 'Sitio web con asistente jurídico GPT para estudio de abogados',
     description: 'Herramienta para la generación de Sales Qualified Lead. Por medio de un asistente GPT, se resuelven consultas jurídicas para luego ser redirigidas con los abogados del estudio. De esta manera, se entrega un prospecto de cliente con mayor probabilidad de cierre.   ',
     features: [
       'Respuesta Automatizada a Consultas',
@@ -22,7 +22,7 @@ const solutions = [
     visitLink: 'https://asistentegpt.vercel.app/'
   },
   {
-    title: 'Marketplace de experiencias deportivas y naturaleza',
+    title: 'Marketplace de experiencias deportivas outdoor',
     description: 'Aplicación enfocado en la compra-venta de servicios de turismos relacionados con experiencias deportivas y naturaleza',
     features: [
       'Integración con pasarelas de pago',

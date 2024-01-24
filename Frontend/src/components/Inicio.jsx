@@ -70,7 +70,7 @@ export default function Inicio() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=emerald&shade=600"
+                  src="/Lawitec - Frame 8.jpeg"
                   alt=""
                 />
               </a>
