@@ -64,7 +64,7 @@ const cards = [
               <div key={index} className="p-4 border border-gray-200 rounded-lg flex flex-col justify-between">
                 <h3 className="text-xl font-semibold text-gray-900">{card.title}</h3>
                 <p className="mt-2 text-gray-600">{card.description}.</p>
-                <p className="mt-2 text-emerald-600 border-t-2 pt-4">Incluye:</p>
+                <p className="mt-2 text-emerald-600 pt-4">Incluye:</p>
                 {/* Verificar si el card tiene la propiedad 'incluye' y renderizar la lista */}
                 {card.incluye && (
                   <ul className="mt-2 text-gray-600">

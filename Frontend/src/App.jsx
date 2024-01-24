@@ -24,7 +24,9 @@ const App = () => {
         <div id="portafolio">
         <Portafolio/>
         </div>
+        <div id='precios'>
         <Pricing/>
+        </div>
         <Footer />
       </div>
     </>
