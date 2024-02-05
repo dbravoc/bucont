@@ -31,7 +31,7 @@ const solutions = [
       'Interfaz Personalizable según intereses Deportivos'
     ],
     imageUrl: letrip,
-    visitLink: 'https://letrip13012023-frontend.vercel.app/'
+    visitLink: 'https://letriplab.com/'
   },
   {
     title: 'Cotizador web de proyectos solares',

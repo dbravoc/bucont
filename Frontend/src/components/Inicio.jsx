@@ -10,7 +10,7 @@ import lawitec from '../assets/img/Lawitec - Frame 8.jpeg'
 
 const navigation = [
   { name: 'Inicio', href: '#' },
-  { name: 'Servicios', href: '#servicios' },
+  { name: 'Soluciones', href: '#soluciones' },
   { name: 'Portafolio', href: '#portafolio' },
   { name: 'Precios', href: '#precios' },
 
@@ -25,7 +25,7 @@ export default function Inicio() {
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Lawitec</span>
               <img
                 className="h-24 w-auto"
                 src= {lawitec}
@@ -118,7 +118,7 @@ export default function Inicio() {
         <div className="mx-auto pt-56 pb-44">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-6 py-1 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 font-bold">
-              Soluciones TI inspiradas en tu visión. {' '}
+              Aplicaciones web a medida {' '}
             </div>
           </div>
           <div className="text-left px-0">
@@ -136,10 +136,10 @@ export default function Inicio() {
                 <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-white text-3xl" /> Conversemos 
               </a>
               <a
-                href="#servicios"
+                href="#soluciones"
                 className="rounded-md flex items-center bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
               >
-                <FontAwesomeIcon icon={faStar} className="mr-2 text-white text-3xl" /> Ver servicios 
+                <FontAwesomeIcon icon={faStar} className="mr-2 text-white text-3xl" /> Ver soluciones 
               </a>
             </div>
           </div>

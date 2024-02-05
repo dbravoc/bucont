@@ -75,7 +75,7 @@ const cards = [
                     ))}
                   </ul>
                 )}
-                <p className="mt-2 text-black text-3xl border-t-2 pt-4 font-semibold">{card.precio} <span className="mt-2 text-base text-black pt-4">{card.formapago}</span></p>
+                <p className="mt-2 text-emerald-600 text-3xl border-t-2 pt-4 font-semibold">{card.precio} <span className="mt-2 text-base text-black pt-4">{card.formapago}</span></p>
 
 
               </div>
