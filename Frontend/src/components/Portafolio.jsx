@@ -54,7 +54,7 @@ export default function Portafolio() {
     <div className="bg-white py-24 px-6">
       <div className="mx-auto">
         <div className="mx-auto text-left">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Portafolio de soluciones construidas para nuestros clientes</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Portafolio de productos construidos para nuestros clientes</h2>
         </div>
         {solutions.map((solution) => (
           <div key={solution.title} className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">

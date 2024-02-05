@@ -27,13 +27,13 @@ const features = [
  
 ]
   
-  export default function Soluciones() {
+  export default function Servicios() {
     return (
       <div className="bg-white">
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 px-6 py-1">
           <div>
           <h1 className="text-4xl text-left font-bold tracking-tight text-gray-900 ">
-              Soluciones
+              Servicios
             </h1>
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-4">
               {features.map((feature) => (

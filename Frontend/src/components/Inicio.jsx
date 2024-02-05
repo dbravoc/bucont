@@ -10,7 +10,7 @@ import lawitec from '../assets/img/Lawitec - Frame 8.jpeg'
 
 const navigation = [
   { name: 'Inicio', href: '#' },
-  { name: 'Soluciones', href: '#soluciones' },
+  { name: 'Servicios', href: '#servicios' },
   { name: 'Portafolio', href: '#portafolio' },
   { name: 'Precios', href: '#precios' },
 
@@ -118,15 +118,15 @@ export default function Inicio() {
         <div className="mx-auto pt-56 pb-44">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-6 py-1 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 font-bold">
-              Aplicaciones web a medida {' '}
+              Productos digitales a medida {' '}
             </div>
           </div>
           <div className="text-left px-0">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              <span className='text-emerald-700'>Construimos aplicaciones web</span> inspiradas en tu visión empresarial.
+              <span className='text-emerald-700'>Construimos productos digitales</span> inspirados en tu visión empresarial.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            Te entregamos soluciones basadas en tu visión empresarial, diseñadas a tu medida para resolver tus desafíos. No solo enfrentamos tus necesidades actuales, sino que preparamos tu negocio para un futuro de crecimiento y éxito. Con <strong className='text-emerald-600'> Lawitec</strong>, estás invirtiendo en tecnología que entiende y potencia tu negocio.
+            Te entregamos productos basados en tu visión empresarial, diseñadas a tu medida para resolver tus desafíos. No solo enfrentamos tus necesidades actuales, sino que preparamos tu negocio para un futuro de crecimiento y éxito. Con <strong className='text-emerald-600'> Lawitec</strong>, estás invirtiendo en tecnología que entiende y potencia tu negocio.
             </p>
             <div className="mt-10 flex items-center justify-left gap-x-6">
               <a
@@ -136,10 +136,10 @@ export default function Inicio() {
                 <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-white text-3xl" /> Conversemos 
               </a>
               <a
-                href="#soluciones"
+                href="#servicios"
                 className="rounded-md flex items-center bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
               >
-                <FontAwesomeIcon icon={faStar} className="mr-2 text-white text-3xl" /> Ver soluciones 
+                <FontAwesomeIcon icon={faStar} className="mr-2 text-white text-3xl" /> Ver servicios 
               </a>
             </div>
           </div>

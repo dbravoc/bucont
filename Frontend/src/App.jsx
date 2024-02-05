@@ -1,6 +1,6 @@
 import './App.css'
 import Inicio from './components/Inicio';
-import Soluciones from './components/Soluciones';
+import Servicios from './components/Servicios';
 import Pricing from './components/Pricing';
 
 import Footer from './components/Footer';
@@ -18,8 +18,8 @@ const App = () => {
             <Inicio />
           </div>
         </div>
-        <div id="soluciones"  >
-        <Soluciones/>
+        <div id="servicios"  >
+        <Servicios/>
         </div>
         <div id="portafolio">
         <Portafolio/>
