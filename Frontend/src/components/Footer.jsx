@@ -17,7 +17,7 @@ export default function Footer() {
               />
             </a>
           </ul>
-          <a href="https://wa.me/56992438343?text=Hola%20quisiera%20más%20información" className="text-xs font-semibold leading-6 text-gray-900 flex items-center">
+          <a href="https://wa.me/56992438343?text=Hola,%20quisiera%20más%20información%20de%20Lawitec" className="text-xs font-semibold leading-6 text-gray-900 flex items-center">
               <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-black text-4xl" />
           </a>
           <a href="" className="text-xs font-semibold leading-6 text-gray-900 flex items-center">

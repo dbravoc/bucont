@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faCartShopping, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 
 const features = [
-    { name: 'Funnel de ventas para la gestión comercial',
+    { name: 'Funnel de ventas',
       icon:<FontAwesomeIcon icon={faMicrochip}/>,
       description: 'Herramienta de gestión comercial diseñada para incrementar significativamente el número de SQL (Sales Qualified Lead) y el porcentaje de conversión a ventas' 
     },
