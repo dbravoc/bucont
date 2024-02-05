@@ -130,7 +130,7 @@ export default function Inicio() {
               <span className='text-emerald-700'>Construimos productos digitales</span> inspirados en tu visión de negocio.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            Te entregamos productos basados en tu visión de negocio, diseñadas a tu medida para resolver tus desafíos. No solo enfrentamos tus necesidades actuales, sino que preparamos tu negocio para un futuro de crecimiento y éxito. Con <strong className='text-emerald-600'> Lawitec</strong>, estás invirtiendo en tecnología que entiende y potencia tu negocio.
+            Investigamos, diseñamos y desarrollamos productos digitales a tu medida para resolver tus desafíos. No solo enfrentamos tus necesidades actuales, sino que preparamos tu negocio para un futuro de crecimiento y éxito. Con <strong className='text-emerald-600'> Lawitec</strong>, estás invirtiendo en tecnología que entiende y potencia tu negocio.
             </p>
             <div className="mt-10 flex items-center justify-left gap-x-6">
               <a
