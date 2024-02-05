@@ -27,7 +27,7 @@ const App = () => {
         <div id='precios'>
         <Pricing/>
         </div>
-        <Footer />
+        <Footer/>
       </div>
     </>
   );

@@ -6,7 +6,7 @@ import { faSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
     return (
-      <div className="px-10 flex justify-center gap-x-3 items-center py-5 mt-20 border-t-2 border-gray-200">
+      <div className="px-10 flex justify-center gap-x-3 items-center py-5 mt-20 border-t-2 border-emerald-500">
             
           <ul>
           <a href="#" className="-m-1.5 p-1.5">
