@@ -122,7 +122,7 @@ export default function Inicio() {
         <div className="mx-auto pt-56 pb-44">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-6 py-1 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 font-bold">
-              Productos digitales a medida {' '}
+              <span className='text-emerald-700'>Lawitec:</span> Consultora de productos digitales {' '}
             </div>
           </div>
           <div className="text-left px-0">
