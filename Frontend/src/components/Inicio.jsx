@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import lawitec from '../assets/img/Lawitec - Frame 8.jpeg'
+import lawitec from '../assets/img/Lawitec - Frame 8.png'
 
 
 export default function Inicio() {
@@ -72,7 +72,7 @@ export default function Inicio() {
                 <span className="sr-only"></span>
                 <img
                   className="h-8 w-auto"
-                  src="/Lawitec - Frame 8.jpeg"
+                  src="/Lawitec - Frame 8.png"
                   alt=""
                 />
               </a>
