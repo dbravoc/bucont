@@ -75,8 +75,8 @@ const cards = [
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {cards.map((card, index) => (
               <div key={index} className="p-4 rounded-lg flex flex-col justify-start">
-                <h3 className="border-t-2 pt-5 text-xl font-semibold text-emerald-600">{card.title}</h3>
-                <p className="mt-6 text-emerald-600 font-semibold">{card.precio} <span className=" text-base text-black pt-4">{card.formapago}</span></p>
+                <h3 className="border-t-2 pt-5 text-xl font-semibold text-cyan-600">{card.title}</h3>
+                <p className="mt-6 text-cyan-600 font-semibold">{card.precio} <span className=" text-base text-black pt-4">{card.formapago}</span></p>
                 <p className="mt-6 text-gray-600">{card.description}.</p>
                 <p className="mt-6 text-black font-bold">Incluye:</p>
                 {/* Verificar si el card tiene la propiedad 'incluye' y renderizar la lista */}

@@ -42,7 +42,7 @@ const features = [
                     {feature.icon}
                   </div>
                   <div>
-                    <dt className="text-xl font-bold text-emerald-700">{feature.name}</dt>
+                    <dt className="text-xl font-bold text-cyan-700">{feature.name}</dt>
                     <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
                   </div>
                 </div>
