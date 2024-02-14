@@ -28,7 +28,7 @@ const solutions = [
       'Integración con pasarelas de pago',
       'Reservas online',
       'Sistemas de calificación de compradores y vendedores',
-      'Interfaz Personalizable según intereses Deportivos'
+      'Interfaz personalizada según intereses deportivos'
     ],
     imageUrl: letrip,
     visitLink: 'https://letriplab.com/'
