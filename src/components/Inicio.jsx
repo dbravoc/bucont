@@ -23,7 +23,7 @@ export default function Inicio() {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <nav className="flex items-center justify-between p-6 lg:px-8 border-b-2 border-gray-100" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <img
@@ -45,14 +45,14 @@ export default function Inicio() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-cyan-600 hover:text-cyan-500">
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-cyan-600 hover:text-cyan-500  ">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://wa.me/56992438343?text=Hola%20quisiera%20más%20información" className="text-sm font-semibold leading-6 text-gray-900 flex items-center">
-              <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-cyan-600 hover:text-cyan-500 text-4xl" />
+            <a href="https://wa.me/56992438343?text=Hola%20quisiera%20más%20información" className="text-sm font-semibold leading-6 text-cyan-600 hover:text-cyan-500 flex items-center">
+              <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-4xl" /> Conversemos
             </a>
           </div>
 
@@ -83,7 +83,7 @@ export default function Inicio() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 "
                       onClick={item.onClick} // Agrega el manejador de clic aquí
 
                     >
