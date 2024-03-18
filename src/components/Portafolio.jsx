@@ -19,7 +19,7 @@ const solutions = [
       'Confidencialidad y seguridad de los datos'
     ],
     imageUrl: asistente,
-    visitLink: 'https://asistentegpt.vercel.app/'
+    visitLink: 'https://laboraljuridico.cl/'
   },
   {
     title: 'Marketplace de experiencias deportivas outdoor',

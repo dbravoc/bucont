@@ -100,7 +100,7 @@ export default function Inicio() {
         <div className="mx-auto pt-52 pb-44">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-6 py-1 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 font-bold">
-              <span className='text-cyan-700'>Bucont:</span> Consultora de productos digitales {' '}
+              <span className='text-cyan-700'>Bucont:</span> Digitalizamos tu negocio {' '}
             </div>
           </div>
           <div className="text-left px-0">
