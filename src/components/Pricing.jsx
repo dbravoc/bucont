@@ -69,7 +69,7 @@ const cards = [
 
   export default function Example() {
     return (
-      <div className="bg-white p-6">
+      <div className="p-6">
         <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold tracking-tight mb-16 text-gray-900 sm:text-4xl ">Precios</h2>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
