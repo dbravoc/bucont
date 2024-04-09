@@ -11,12 +11,12 @@ const features = [
     icon:<FontAwesomeIcon icon={faMicrochip}/>,
     description: 'Nos integramos con la tecnología OpenAI para mejorar la generación de leads y servicio al cliente.' 
     },
-    { name: 'Marketplace', 
-      icon:<FontAwesomeIcon icon={faChalkboardUser} />, 
+    { name: 'E-commerce', 
+      icon:<FontAwesomeIcon icon={faMoneyBillTransfer} />, 
       description: 'Desarrollamos sitios web de e-commerce personalizados que resaltan su marca, asegurando una experiencia de usuario sobresaliente y un proceso de compra eficiente, todo apoyado por estrategias de marketing digital efectivas para maximizar ventas.'
     },
     { name: 'Sistemas de gestión',
-      icon: <FontAwesomeIcon icon={faMoneyBillTransfer}/>,
+      icon: <FontAwesomeIcon icon={faChalkboardUser}/>,
       description: 'Implementamos softwares con diseños y funcionalidades únicas, desarrollados a medida y alineados con los desafíos de negocio.'
     },
 ]

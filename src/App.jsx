@@ -13,7 +13,7 @@ import Portafolio from './components/Portafolio';
 const App = () => {
   return (
     <>
-      <div className="mx-auto">
+      <div className="mx-auto font-poppins">
         <div className="flex justify-between flex-wrap">
           <div className=" bg-gray-900 mb-32 pt-16">
             <Header />
@@ -28,10 +28,12 @@ const App = () => {
         <div id="portafolio" className='bg-white border-b-2 border-yellow-100'>
         <Portafolio/>
         </div>
-        <div id='precios' className='bg-cyan-50 pb-32 pt-16 w-full border-b-2 border-yellow-100'>
+        <div id='precios' className='bg-gray-100 pb-32 pt-16 w-full border-b-2 border-yellow-100'>
         <Pricing/>
         </div>
+        <div className='py-10'>
         <Footer/>
+        </div>
       </div>
     </>
   );

@@ -6,7 +6,13 @@ export default {
     // Añade más rutas según sea necesario
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif'], // Asegúrate de poner 'Lato' primero para priorizarla sobre las fuentes genéricas sans-serif
+        'poppins': ['Poppins', 'sans-serif'] // Añade Poppins aquí
+
+      }
+    },
   },
   plugins: [],
 }

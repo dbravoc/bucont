@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faSquareInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import bucont from '../assets/img/BUCONT1.jpeg'
+import bucont from '../assets/img/BUCONT1.png'
 
 
 export default function Footer() {
@@ -15,16 +15,11 @@ export default function Footer() {
               />
             </a>
           </div>
-      <div className='flex gap-x-5'>
-      <div className="">
-        
-          <a href="https://wa.me/56992438343?text=Hola,%20quisiera%20más%20información%20de%20Bucont" className="text-xs font-semibold leading-6 text-cyan-900">
-              <FontAwesomeIcon icon={faWhatsapp} className=" text-cyan-100 text-4xl" />
-          </a>
-      </div>
-      <ul className="text-xs font-semibold leading-6 text-cyan-100">
+      <div className='flex'>
+      <ul className="text-xs text-center font-semibold leading-6 text-cyan-100">
         <li>david@bucont.com</li>
-        <li className='text-black font-light'>- Founder -</li>
+        <li className='text-cyan-100 font-light'>- Founder -</li>
+        <li className='pt-4'> <a className='text-cyan-100 hover:text-cyan-300' href="https://www.linkedin.com/in/bravocisterna/"><FontAwesomeIcon icon={faLinkedin} className="mr-2 text-4xl" /></a></li>
       </ul>
 
       </div>
