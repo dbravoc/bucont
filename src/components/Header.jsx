@@ -47,7 +47,7 @@ export default function Inicio() {
         </nav>
       </header>
       <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50 lg:hidden">
-        <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
+        <div className="fixed inset-0  aria-hidden="true" />
         <div className="fixed inset-0 flex justify-center items-center p-4">
           <Dialog.Panel className="mx-auto max-w-sm w-full bg-gray-900 rounded-lg p-6">
             <div className="mt-4 flex flex-col">

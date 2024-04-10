@@ -18,7 +18,7 @@ const App = () => {
           <div className=" bg-gray-900 mb-32 pt-16">
             <Header />
           </div>
-          <div className="p-6 pb-32 border-b-2 border-yellow-100">
+          <div className="bg-gray-900 p-6 pb-32 border-b-2 border-yellow-100">
             <Inicio />
           </div>
         </div>
