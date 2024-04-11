@@ -43,7 +43,7 @@ export default function Inicio() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="https://wa.me/56992438343?text=Hola%20quisiera%20más%20información" className="text-sm font-semibold leading-6 text-cyan-100 hover:text-cyan-300 flex items-center">
-              <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-4xl" /> Conversemos
+              <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-4xl" /> Hablemos
             </a>
           </div>
         </nav>

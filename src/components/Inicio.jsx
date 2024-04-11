@@ -12,8 +12,8 @@ export default function Inicio() {
     
 
         <div className="mx-auto grid lg:grid-cols-4 grid-cols-1">
-          <div className=" text-left px-0 col-span-2">
-            <h1 className=" tracking-tight font-semibold text-cyan-100 text-6xl">
+          <div className=" text-left px-5 col-span-2">
+            <h1 className=" tracking-tight font-semibold text-cyan-100 text-4xl">
             CONSTRUIMOS<span className='text-cyan-400 font-semibold'> PRODUCTOS DIGITALES A MEDIDA,</span> INSPIRADOS EN TU VISIÓN DE NEGOCIO.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-100">
@@ -24,13 +24,13 @@ export default function Inicio() {
                 href="https://wa.me/56992438343?text=Hola,%20quisiera%20más%20información%20de%20Bucont"
                 className="rounded-md flex items-center bg-cyan-100 px-3.5 py-2.5 text-md font-semibold text-cyan-900 shadow-sm hover:bg-cyan-300 hover:text-cyan-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-600"
               >
-                <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-cyan-700 font-extrabold text-3xl" /> Conversemos 
+                <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-cyan-700 font-extrabold text-3xl" /> Hablemos 
               </a>
               <a
                 href="#servicios"
                 className="rounded-md flex items-center bg-cyan-100 px-3.5 py-2.5 text-md font-semibold text-cyan-900 shadow-sm hover:bg-cyan-300 hover:text-cyan-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-600"
               >
-                <FontAwesomeIcon icon={faStar} className="mr-2 text-cyan-900 text-3xl" /> Ver servicios 
+                <FontAwesomeIcon icon={faStar} className="mr-2 text-cyan-900 text-3xl" />Servicios 
               </a>
             </div>
           </div>
