@@ -38,8 +38,8 @@ const cards = [
         'Prototipos en figma low fidelity',
         'Prototipo en figma high fidelity',
         'Pruebas de usabilidad',
-        'Revisión a fase de descubrimiento',
         'Reuniones de refinamiento',
+        'Reunión de validación de prototipo'
       ], 
       precio: '40%',
       formapago: 'del valor total, adelantado.',
