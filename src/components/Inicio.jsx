@@ -12,7 +12,7 @@ export default function Inicio() {
     
 
         <div className="mx-auto grid lg:grid-cols-4 grid-cols-1">
-          <div className=" text-left px-5 col-span-2">
+          <div className=" text-left col-span-2">
             <h1 className=" tracking-tight font-semibold text-cyan-100 text-4xl">
             CONSTRUIMOS<span className='text-cyan-400 font-semibold'> PRODUCTOS DIGITALES A MEDIDA,</span> INSPIRADOS EN TU VISIÓN DE NEGOCIO.
             </h1>
