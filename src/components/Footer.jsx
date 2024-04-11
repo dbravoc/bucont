@@ -19,7 +19,13 @@ export default function Footer() {
       <ul className="text-xs text-center font-semibold leading-6 text-cyan-100">
         <li>david@bucont.com</li>
         <li className='text-cyan-100 font-light'>- Founder -</li>
-        <li className='pt-4'> <a className='text-cyan-100 hover:text-cyan-300' href="https://www.linkedin.com/in/bravocisterna/"><FontAwesomeIcon icon={faLinkedin} className="mr-2 text-4xl" /></a></li>
+        <li className='pt-4'> 
+        <div>
+          <a className='text-cyan-100 hover:text-cyan-300 px-2' href="https://www.linkedin.com/in/bravocisterna/"><FontAwesomeIcon icon={faLinkedin} className="mr-2 text-4xl" /></a>
+          <a className='text-cyan-100 hover:text-cyan-300 px-2' href="https://wa.me/56992438343?text=Hola,%20quisiera%20más%20información%20de%20Bucont"><FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-4xl" /></a>
+        </div>
+        </li>
+
       </ul>
 
       </div>
