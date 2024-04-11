@@ -82,11 +82,11 @@ const cards = [
     return (
       <div className="px-6">
         <div className="mx-auto">
-        <h2 className="text-4xl font-bold tracking-tight text-gray-900 ">Metodología</h2>
-          <div className="grid grid-cols-1 gap-4 p-10">
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 ">Metodología</h2>
+          <div className="grid grid-cols-1 gap-4 py-10 lg:p-10">
             {cards.map((card, index) => (
               
-              <div key={index} className="p-4 rounded-lg flex flex-col justify-start">
+              <div key={index} className="lg:p-4 rounded-lg flex flex-col justify-start">
                 <div className='grid grid-cols-1 lg:grid-cols-2 border-t-2'>
                 <div className='col-span-1 lg:pr-20 '>
 

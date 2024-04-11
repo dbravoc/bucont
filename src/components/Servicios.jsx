@@ -26,17 +26,17 @@ const features = [
       <div className="">
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 px-6 py-1">
           <div>
-          <h1 className="text-4xl text-left font-bold tracking-tight text-gray-900 ">
+          <h1 className="text-2xl text-left font-bold tracking-tight text-gray-900 ">
               Servicios
             </h1>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (
-                <div key={feature.name} className=" grid grid-cols-[3fr_7fr] sm:grid-cols-[1fr_9fr] border-t border-gray-200 pt-4">
+                <div key={feature.name} className="flex flex-col justify-center items-center lg:grid lg:grid-cols-[1fr_9fr] border-t border-gray-200 pt-4">
                   <div className='text-5xl flex justify-left items-center text-cyan-700'>
                     {feature.icon}
                   </div>
                   <div>
-                    <dt className="text-xl font-bold text-gray-700">{feature.name}</dt>
+                    <dt className="mt-2 text-xl lg:text-left text-center font-bold text-gray-700">{feature.name}</dt>
                     <dd className="mt-2 text-justify text-sm text-gray-500">{feature.description}</dd>
                   </div>
                 </div>
