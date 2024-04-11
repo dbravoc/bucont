@@ -7,31 +7,34 @@ import Pricing from './components/Pricing';
 
 import Footer from './components/Footer';
 import Portafolio from './components/Portafolio';
+import QuienesSomos from './components/QuienesSomos';
+
 
 
 
 const App = () => {
   return (
     <>
-      <div className="mx-auto font-poppins">
-        <div className="flex justify-between flex-wrap">
-          <div className=" bg-gray-900 mb-32 pt-16">
-            <Header />
-          </div>
-          <div className="bg-gray-900 p-6 pb-32 border-b-2 border-yellow-100">
-            <Inicio />
-          </div>
+      <div className="mx-0 font-poppins">
+        <div className=" bg-black pb-32 pt-16 flex justify-between flex-wrap">
+        <Header />
         </div>
-        <div id="servicios" className='bg-gray-100 pb-32 pt-16 w-full border-b-2 border-yellow-100'  >
+        <div className="bg-black p-6 pb-32 border-b-2 border-yellow-100 flex justify-between flex-wrap">
+        <Inicio />
+        </div>
+        <div id="servicios" className='bg-cyan-100 pb-32 pt-16 w-full border-b-2 border-yellow-100'  >
         <Servicios/>
         </div>
         <div id="portafolio" className='bg-white border-b-2 border-yellow-100'>
         <Portafolio/>
         </div>
-        <div id='precios' className='bg-gray-100 pb-32 pt-16 w-full border-b-2 border-yellow-100'>
+        <div id='precios' className='bg-cyan-50 pb-32 pt-16 w-full border-b-2 border-yellow-100'>
         <Pricing/>
         </div>
-        <div className='py-10'>
+        <div id='precios' className='bg-cyan-100 pb-32 pt-16 w-full border-b-2 border-yellow-100'>
+        <QuienesSomos/>
+        </div>
+        <div className='bg-black py-10'>
         <Footer/>
         </div>
       </div>

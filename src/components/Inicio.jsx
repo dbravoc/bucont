@@ -2,19 +2,19 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import img4fases from '../assets/img/4Fases.png'
+import img4fases from '../assets/img/4Fases4.png'
 
 
 export default function Inicio() {
 
   return (
-    <div className="w-full">
+    <div className="w-full ">
     
 
         <div className="mx-auto grid lg:grid-cols-4 grid-cols-1">
           <div className=" text-left px-0 col-span-2">
-            <h1 className=" tracking-tight font-semibold text-cyan-100 sm:text-6xl">
-            Construimos<span className='text-cyan-400 font-semibold'> productos digitales a medida,</span> inspirados en tu visión de negocio.
+            <h1 className=" tracking-tight font-semibold text-cyan-100 text-6xl">
+            CONSTRUIMOS<span className='text-cyan-400 font-semibold'> PRODUCTOS DIGITALES A MEDIDA,</span> INSPIRADOS EN TU VISIÓN DE NEGOCIO.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-100">
             Somos una consultora de productos digitales, especialistas en ingeniería, diseño y negocios, dedicados a investigar, diseñar y desarrollar productos a tu medida para resolver tus desafíos de negocio y alcanzar el crecimiento y éxito que esperas. Con <strong className='text-cyan-300'> BUCONT</strong>, inviertes en innovación y tecnología que entiende y potencia tu negocio.

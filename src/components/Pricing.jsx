@@ -16,19 +16,13 @@ const cards = [
       title: '2. Fase de descubrimiento',
       description: 'Etapa inicial para definir la estrategia y el plan de desarrollo',
       incluye: [
-        'Propuesta de valor',
-        'Benchmarking',
-        'User Research',
-        'Ideal customer profile',
-        'Validación del problema',
         'Plan estratégico del producto',
-        'Plan de medición',
-        'Plan go to market',
         'Roadmap del producto',
         'Backlog de producto',
         'Plan técnico de desarrollo',
-        'Diagramas de flujo',
-        'Customer journey',
+        'User Research',
+	      'Benchmarking',
+        'Validación del problema',
         'Reuniones de refinamiento',
         'Reuniones de validación'
 
@@ -65,23 +59,46 @@ const cards = [
       formapago: 'del valor total, contraentrega.'
 
     },
+    {
+      title: '5. Fase de lanzamiento',
+      description: 'Lanzamiento del producto y periodo de acompañamiento para el logro de los resultados esperados',
+      incluye: [
+        'Plan go to market',
+        'Propuesta de valor',
+        'Plan de medición',
+        'Ideal customer profile',
+        'Customer journey',
+        'Reuniones de refinamiento',
+        'Reuniones de validación'
+      ],
+
+      precio: '30%',
+      formapago: 'del valor total, acompañamiento.'
+
+    },
   ];
 
   export default function Example() {
     return (
-      <div className="p-6">
-        <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold tracking-tight mb-16 text-gray-900 sm:text-4xl ">Precios</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
+      <div className="px-6">
+        <div className="mx-auto">
+        <h2 className="text-4xl font-bold tracking-tight text-gray-900 ">Metodología</h2>
+          <div className="grid grid-cols-1 gap-4 p-10">
             {cards.map((card, index) => (
+              
               <div key={index} className="p-4 rounded-lg flex flex-col justify-start">
-                <h3 className="border-t-2 pt-5 text-xl font-semibold text-cyan-600">{card.title}</h3>
-                <p className="mt-6 text-cyan-600 font-semibold">{card.precio} <span className=" text-base text-black pt-4">{card.formapago}</span></p>
+                <div className='grid grid-cols-1 lg:grid-cols-2 border-t-2'>
+                <div className='col-span-1 lg:pr-20 '>
+
+                <h3 className="pt-5 text-xl font-semibold text-cyan-500">{card.title}</h3>
+                  {/* <p className="mt-6 text-cyan-400 font-semibold">{card.precio} <span className=" text-base text-black pt-4">{card.formapago}</span></p>*/}
                 <p className="mt-6 text-gray-600">{card.description}.</p>
+                </div>
+                <div className='col-span-1'>
                 <p className="mt-6 text-black font-bold">Incluye:</p>
                 {/* Verificar si el card tiene la propiedad 'incluye' y renderizar la lista */}
                 {card.incluye && (
-                  <ul className="mt-2 text-gray-600">
+                  <ul className="mt-2 grid grid-cols-1 lg:grid-cols-3 text-gray-600">
                     {card.incluye.map((item, itemIndex) => (
                       <li key={itemIndex} className='text-black text-xs'>
                         <FontAwesomeIcon className='text-black' icon={faCheck} /> {item}
@@ -89,7 +106,9 @@ const cards = [
                     ))}
                   </ul>
                 )}
+                </div>
 
+              </div>
               </div>
             ))}
           </div>
