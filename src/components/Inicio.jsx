@@ -29,7 +29,7 @@ export default function Inicio() {
         <div className="flex flex-col justify-center items-center">
 
           <div className="tracking-tight font-bold text-cyan-100 text-6xl">
-            <span className='text-cyan-300'>BU</span>CONT.
+            <span className='text-cyan-300'>bu</span>cont.
           </div>
           <div className=" tracking-tight  text-cyan-100 text-3xl py-4 text-center">
             Consultora de productos digitales<span className='text-yellow-400 font-semibold'> a medida </span>
