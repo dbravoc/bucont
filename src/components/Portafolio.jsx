@@ -41,7 +41,8 @@ export default function Portafolio() {
     <div className="py-16 px-6">
       <div className="mx-auto">
         <div className="mx-auto text-left">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Últimos proyectos desarrollados</h2>
+        <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
+            Últimos proyectos desarrollados</div>
         </div>
 
         {solutions.map((solution) => (

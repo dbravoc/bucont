@@ -4,20 +4,20 @@ import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faWindowMax
 const features = [
     { name:'Sitios web a medida',
     icon: <FontAwesomeIcon icon={faWindowMaximize} />,
-    description:'Desarrollamos sitios web a medida, enfocados en las necesidades específicas de tu negocio. Combinamos diseño único, tecnología avanzada y estrategia digital para ofrecer soluciones web óptimas y personalizadas, asegurando una experiencia de usuario excepcional y alineación con sus objetivos comerciales.'
+    description:'Combinamos diseño único, tecnología avanzada y estrategia digital para ofrecer soluciones web óptimas y personalizadas.'
     },
 
     { name: 'Integraciones con Chat GPT',
     icon:<FontAwesomeIcon icon={faMicrochip}/>,
-    description: 'Integramos en tus sitios web o aplicaciones, la tecnología de OpenAI como estategia de marketing, ventas o automatización de procesos, entre otros.' 
+    description: 'Integramos en tu plataforma tecnología de OpenAI para el aumento de ventas y optimización de procesos.' 
     },
     { name: 'E-commerce', 
       icon:<FontAwesomeIcon icon={faMoneyBillTransfer} />, 
-      description: 'Desarrollamos sitios web de e-commerce personalizados que resaltan tu marca, asegurando una experiencia de usuario sobresaliente y un proceso de compra eficiente, todo apoyado por estrategias de marketing digital efectivas que maximizan la venta'
+      description: 'Aseguramos un alto rendimiento y experiencia de usuario óptima para optimizar tus resultados de negocio. '
     },
-    { name: 'Sistemas de gestión',
+    { name: 'Micro ERP',
       icon: <FontAwesomeIcon icon={faChalkboardUser}/>,
-      description: 'Implementamos softwares con diseños y funcionalidades únicas, desarrollados a medida y alineados con los desafíos de tu negocio.'
+      description: 'Construimos softwares modulares y personalziados que resuelven necesidades específicas relacionadas a la gestión del negocio.'
     },
 ]
   
@@ -26,9 +26,9 @@ const features = [
       <div className="">
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 px-6 py-1">
           <div>
-          <h1 className="text-2xl text-left font-bold tracking-tight text-gray-900 ">
-              Servicios
-            </h1>
+          <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
+            Tipos de productos
+          </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (
                 <div key={feature.name} className="flex flex-col justify-center items-center lg:grid lg:grid-cols-[1fr_9fr] border-t border-gray-200 pt-4">
