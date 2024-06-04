@@ -10,8 +10,8 @@ import letrip4 from '../assets/img/letriplab/Logo.jpg';
 
 import { CheckIcon } from '@heroicons/react/20/solid';
 
-const asistenteImages = [asistente4, asistente1, asistente2, asistente3];
-const letripImages = [letrip4, letrip1, letrip2, letrip3];
+const asistenteImages = [asistente1, asistente2, asistente3];
+const letripImages = [ letrip1, letrip2, letrip3];
 
 const solutions = [
   {
