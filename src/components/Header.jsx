@@ -9,10 +9,10 @@ import WhatsAppButton from './Botones';
 export default function Inicio() {
   const [isOpen, setIsOpen] = useState(false);
   const navigation = [
-    { name: 'Servicios', href: '#servicios' },
+    { name: 'Productos', href: '#productos' },
+    { name: 'Metodología', href: '#metodologia' },
     { name: 'Portafolio', href: '#portafolio' },
-    { name: 'Metodología', href: '#precios' },
-    { name: 'Quiénes somos', href: '#somos' },
+    { name: 'Nosotros', href: '#nosotros' },
 
   ];
 

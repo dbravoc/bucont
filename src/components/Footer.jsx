@@ -6,14 +6,8 @@ import bucont from '../assets/img/BUCONT1.png'
 export default function Footer() {
     return (
       <div className='flex flex-col items-center'>
-                  <div className="flex md:flex-1">
-            <a href="#" className="m-1.5 p-1.5">
-              <img
-                className="h-14 w-auto"
-                src= {bucont}
-                alt=""
-              />
-            </a>
+          <div className="tracking-tight font-bold text-cyan-100 text-4xl">
+            <span className='text-cyan-300'>bu</span>cont.
           </div>
       <div className='flex'>
       <ul className="text-xs text-center font-semibold leading-6 text-cyan-100">

@@ -30,20 +30,20 @@ const App = () => {
         <QueHacemos />
         </div>
 
-        <div id="servicios" className='bg-gradient-to-b from-cyan-100 to-white py-20 w-full'  >
+        <div id="productos" className='bg-gradient-to-b from-cyan-100 to-white py-20 w-full'  >
         <Servicios/>
         </div>
-        <div id='precios' className='bg-gradient-to-b from-white to-cyan-100 py-10 w-full '>
+        <div id='metodologia' className='bg-gradient-to-b from-white to-cyan-100 py-10 w-full '>
         <Metodologia/>
         </div>
         <div id="portafolio" className='bg-gradient-to-b from-cyan-100 to-white py-10 '>
         <Portafolio/>
         </div>
 
-        <div id='precios' className='bg-gradient-to-b from-white to-cyan-100 pb-32 pt-10 w-full border-b-2'>
+        <div id='nosotros' className='bg-gradient-to-b from-white to-cyan-100 pb-32 pt-10 w-full'>
         <QuienesSomos/>
         </div>
-        <div className='bg-black py-10'>
+        <div className='bg-gradient-to-b from-cyan-100  to-cyan-900 pt-10 pb-5'>
         <Footer/>
         </div>
       </div>
