@@ -28,7 +28,7 @@ export default function Inicio() {
   return (
         <div className="flex flex-col justify-center items-center">
 
-          <div className="tracking-tight font-bold text-cyan-100 text-6xl">
+          <div className="tracking-tight font-bold text-cyan-100 text-8xl">
             <span className='text-cyan-300'>bu</span>cont.
           </div>
           <div className=" tracking-tight  text-cyan-100 text-3xl py-4 text-center">

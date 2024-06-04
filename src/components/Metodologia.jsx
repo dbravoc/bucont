@@ -1,24 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
+import { fa1, fa2, fa3 } from '@fortawesome/free-solid-svg-icons';
 
 const features = [
-    { name:'Sitios web a medida',
-    icon: <FontAwesomeIcon icon={faWindowMaximize} />,
-    description:'Combinamos diseño único, tecnología avanzada y estrategia digital para ofrecer soluciones web óptimas y personalizadas.'
+    { name:'Descubrimiento y prototipo',
+    icon: <FontAwesomeIcon icon={fa1} />,
+    description:'Creamos un prototipo funcional, investigando y colaborando hasta su aprobación final.'
     },
 
-    { name: 'Integraciones con Chat GPT',
-    icon:<FontAwesomeIcon icon={faMicrochip}/>,
-    description: 'Integramos en tu plataforma tecnología de OpenAI para el aumento de ventas y optimización de procesos.' 
+    { name: 'Desarrollo y onboarding',
+    icon:<FontAwesomeIcon icon={fa2}/>,
+    description: 'Desarrollamos y desplegamos el software, proporcionando documentación, material audiovisual y sesiones de inducción.' 
     },
-    { name: 'E-commerce', 
-      icon:<FontAwesomeIcon icon={faMoneyBillTransfer} />, 
-      description: 'Aseguramos un alto rendimiento y experiencia de usuario óptima para optimizar tus resultados de negocio. '
-    },
-    { name: 'Software ERP modulares',
-      icon: <FontAwesomeIcon icon={faChalkboardUser}/>,
-      description: 'Construimos softwares modulares y personalziados que resuelven necesidades específicas relacionadas a la gestión del negocio.'
-    },
+    { name: 'Mantenimiento', 
+      icon:<FontAwesomeIcon icon={fa3} />, 
+      description: 'Ofrecemos suscripción mensual, semestral o anual, permitiendo mantenimiento continuo y nuevas funcionalidades según necesidades del cliente.'
+    }
 ]
   
   export default function Servicios() {
@@ -27,7 +23,7 @@ const features = [
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 px-6 py-1">
           <div>
           <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
-            Tipos de productos
+            Tres etapas para crear un producto
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (

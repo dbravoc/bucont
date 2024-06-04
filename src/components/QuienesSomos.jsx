@@ -38,7 +38,7 @@ const features = [
           <h1 className="text-xl text-center lg:text-left font-bold tracking-tight text-gray-900 mb-4 ">
               Consultor Fundador
           </h1>
-              Mi nombre es <strong>David Bravo, fundador de BUCONT.</strong> Soy Ingeniero Civil Industrial de la Universidad Técnica Federico Santa María, tengo 30 años y durante mi trayectoria profesional me he especializado en la industria tecnológica digital de productos. Desde el 2018 que vengo apostando por la industria digital, donde he tenido la oportunidad de formarme como <strong>Product Manager</strong> gracias a diversas organizaciones y proyectos en los que he trabajado. Sin embargo siempre sentí la necesidad de aprender más sobre lo técnico y la programación web, por lo que el 2023 tomé la decisión de estudiar <strong>Desarrollo Fullstack</strong> y así tener las herramientas necesarias para crear mi propia <strong>consultora de productos digitales</strong>. Hoy soy capaz de construir un producto digital de principio  a fin, como Product Manager, Diseñador y Programador. Conozco el proceso y la metodología perfecta para crear el producto que necesitas. Confía en <strong>BUCONT como tu partner tecnológico</strong> y conformaré el mejor equipo de especialistas en diseño, ingeniería y producto para lograr los objetivos de tu negocio.
+          Soy David Bravo, fundador de BUCONT e Ingeniero Civil Industrial de la Universidad Técnica Federico Santa María. Especialista en diseño, desarrollo y lanzamiento de productos tecnológicos digitales. Luego de 6 años adquiriendo experiencia en grandes empresas, el 2023 decidí reunir a los mejores profesionales y crear mi propia consultora de productos digitales a medida.
           </p>
           </div>
 
