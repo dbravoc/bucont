@@ -23,24 +23,24 @@ const App = () => {
         <div className=" bg-black pt-16 flex justify-between flex-wrap">
         <Header />
         </div>
-        <div className="bg-gradient-to-b from-black via-cyan-800 to-cyan-100 p-6 py-24  flex justify-center flex-wrap">
+        <div className="bg-gradient-to-b from-black via-cyan-800 to-cyan-100 p-6 py-20  flex justify-center flex-wrap">
         <Inicio />
         </div>
-        <div className="bg-gradient-to-b from-cyan-100 via-cyan-100 to-cyan-100 p-6 flex justify-center flex-wrap">
+        <div className="bg-gradient-to-b from-cyan-100 via-cyan-100 to-cyan-100 p-6 py-20 flex justify-center flex-wrap">
         <QueHacemos />
         </div>
 
-        <div id="servicios" className='bg-gradient-to-b from-cyan-100 to-white pt-12 w-full'  >
+        <div id="servicios" className='bg-gradient-to-b from-cyan-100 to-white py-20 w-full'  >
         <Servicios/>
         </div>
-        <div id='precios' className='bg-white pt-16 w-full '>
+        <div id='precios' className='bg-gradient-to-b from-white to-cyan-100 py-10 w-full '>
         <Metodologia/>
         </div>
-        <div id="portafolio" className='bg-white '>
+        <div id="portafolio" className='bg-gradient-to-b from-cyan-100 to-white py-10 '>
         <Portafolio/>
         </div>
 
-        <div id='precios' className='bg-cyan-100 pb-32 pt-16 w-full border-b-2'>
+        <div id='precios' className='bg-gradient-to-b from-white to-cyan-100 pb-32 pt-10 w-full border-b-2'>
         <QuienesSomos/>
         </div>
         <div className='bg-black py-10'>

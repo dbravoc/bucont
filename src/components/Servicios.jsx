@@ -24,10 +24,10 @@ const features = [
   export default function Servicios() {
     return (
       <div className="">
-        <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 px-6 py-1">
+        <div className="mx-auto grid grid-cols-1 gap-x-8 px-6 py-1">
           <div>
           <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
-            Tipos de productos
+            Nuestros productos
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (
@@ -37,7 +37,7 @@ const features = [
                   </div>
                   <div>
                     <dt className="mt-2 text-xl lg:text-left text-center font-bold text-gray-700">{feature.name}</dt>
-                    <dd className="mt-2 text-justify text-sm text-gray-500">{feature.description}</dd>
+                    <dd className="mt-2 text-center lg:text-left text-sm text-gray-500">{feature.description}</dd>
                   </div>
                 </div>
               ))}

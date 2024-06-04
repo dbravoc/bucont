@@ -78,15 +78,15 @@ export default function Portafolio() {
     <div className="py-16 px-6">
       <div className="mx-auto">
         <div className="mx-auto text-left">
-          <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">Últimos proyectos desarrollados</div>
+          <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">Últimos productos desarrollados</div>
         </div>
         {solutions.map((solution, index) => (
           <div key={index} className="mx-auto max-w-2xl rounded-3xl lg:mx-0 lg:flex lg:max-w-none">
-            <div className="lg:p-10 lg:flex-auto">
+            <div className="p-10 lg:flex-auto">
               <div className='flex flex-col lg:grid lg:grid-cols-5 gap-x-10'>
                 <div className='col-span-3 lg:p-10'>
                   <h3 className="text-xl font-bold tracking-tight text-gray-900">{solution.title}</h3>
-                  <p className="mt-6 text-justify text-base leading-7 text-gray-900">{solution.description}</p>
+                  <p className="mt-6 text-left text-base leading-7 text-gray-900">{solution.description}</p>
                   <div className="mt-6 flex items-center gap-x-4">
                     <h4 className="flex-none text-sm font-semibold leading-6 text-cyan-900">Características</h4>
                   </div>
@@ -107,7 +107,7 @@ export default function Portafolio() {
                   <div className="w-full max-w-md flex-shrink-0">
                     <div className="flex rounded-2xl text-center justify-center">
                       <div className="mx-auto transition-opacity duration-300" style={{ opacity: solution.title.includes('Asistente') ? asistenteOpacity : letripOpacity }}>
-                        <img className='rounded-3xl' src={solution.imageUrl} alt="" />
+                        <img className='rounded-3xl w-auto h-92' src={solution.imageUrl} alt="" />
                       </div>
                     </div>
                   </div>

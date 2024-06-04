@@ -36,7 +36,7 @@ export default function Inicio() {
           Construimos productos digitales a medida, inspirados en la visión de negocio de nuestros clientes          </div>
         </div>
         
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-10 gap-y-5 justify-center items-start">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-10 gap-y-10 justify-center items-start">
         
         
           <div className='rounded-md rounded-bl-3xl px-3 py-2 text-center text-xl font-semibold shadow-md border-yellow-300  text-cyan-500'>
