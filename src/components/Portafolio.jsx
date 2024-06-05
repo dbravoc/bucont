@@ -107,7 +107,7 @@ export default function Portafolio() {
                   <div className="w-full max-w-md flex-shrink-0">
                     <div className="flex rounded-2xl text-center justify-center">
                       <div className="mx-auto transition-opacity duration-300" style={{ opacity: solution.title.includes('Asistente') ? asistenteOpacity : letripOpacity }}>
-                        <img className='rounded-3xl w-auto h-92' src={solution.imageUrl} alt="" />
+                        <img className='rounded-3xl w-auto h-80' src={solution.imageUrl} alt="" />
                       </div>
                     </div>
                   </div>
