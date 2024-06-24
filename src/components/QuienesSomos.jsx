@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faWindowMaximize, faPeopleRoof, faUserGear, faPaintRoller, faArrowPointer, faPalette, faPaintBrush } from '@fortawesome/free-solid-svg-icons';
-import DavidProfile from '../assets/img/PerfilCuadrado.png'
+import DavidProfile from '../assets/img/PerfilCuadradoByN.jpeg'
 
 const features = [
     { name:'Product Consultant',
@@ -25,7 +25,7 @@ const features = [
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 px-6 py-1">
           <div>
           <div className="tracking-tight text-center font-bold text-cyan-900 text-3xl">
-              Quiénes somos
+              Nosotros
           </div>
           <div className='lg:p-10 flex flex-col'>
           <div className='flex justify-center p-16 lg:p-0'>
@@ -34,11 +34,11 @@ const features = [
 
             <div className='px-16 flex items-center'>
 
-          <p className="text-md text-center text-gray-500">
+          <p className="text-sm text-justify text-gray-500">
           <h1 className="text-xl text-center font-bold tracking-tight text-gray-900 pt-16 pb-10 ">
               Consultor Fundador
           </h1>
-          Soy David Bravo, fundador de BUCONT e Ingeniero Civil Industrial de la Universidad Técnica Federico Santa María. Especialista en la creación de productos tecnológicos digitales. Luego de 6 años adquiriendo experiencia en grandes empresas, el 2023 decidí crear mi propia consultora y conectar a los mejores talentos en investigación, diseño e ingeniería.
+          Soy David Bravo, fundador de BUCONT, Ingeniero Civil Industrial de la USM y Desarrollador Full-Stack certificado. Especialista en la creación de productos tecnológicos digitales. Luego de 8 años adquiriendo experiencia en grandes empresas, el 2023 decidí crear mi propia consultora y conectar a los mejores talentos en investigación, diseño e ingeniería.
           </p>
           </div>
 

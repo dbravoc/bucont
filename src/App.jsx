@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Portafolio from './components/Portafolio';
 import QuienesSomos from './components/QuienesSomos';
 import QueHacemos from './components/QueHacemos';
+import WhatsAppButton from './components/Botones';
 
 
 
@@ -20,32 +21,37 @@ const App = () => {
   return (
     <>
       <div className="mx-0 font-poppins">
-        <div className=" bg-black pt-16 flex justify-between flex-wrap">
+        <div className="bg-black top-0 w-full pt-16 flex justify-between flex-wrap">
         <Header />
         </div>
-        <div className="bg-gradient-to-b from-black via-cyan-800 to-cyan-100 p-6 py-20  flex justify-center flex-wrap">
+        <div className="bg-gradient-to-b from-black via-cyan-800 to-cyan-100 p-6 py-56  flex justify-center flex-wrap">
         <Inicio />
         </div>
-        <div className="bg-gradient-to-b from-cyan-100 via-cyan-100 to-cyan-100 p-6 py-20 flex justify-center flex-wrap">
+
+        <div className="bg-cyan-100 py-20  flex justify-center flex-wrap">
         <QueHacemos />
         </div>
 
         <div id="productos" className='bg-gradient-to-b from-cyan-100 to-white py-20 w-full'  >
-        <Servicios/>
+        <Metodologia/>
         </div>
         <div id='metodologia' className='bg-gradient-to-b from-white to-cyan-100 py-10 w-full '>
-        <Metodologia/>
+        <Servicios/>
         </div>
         <div id="portafolio" className='bg-gradient-to-b from-cyan-100 to-white py-10 '>
         <Portafolio/>
         </div>
 
-        <div id='nosotros' className='bg-gradient-to-b from-white to-cyan-100 pb-32 pt-10 w-full'>
+        <div id='nosotros' className='bg-gradient-to-b from-white  to-cyan-100 pb-32 w-full'>
         <QuienesSomos/>
         </div>
-        <div className='bg-gradient-to-b from-cyan-100  to-cyan-900 pt-10 pb-5'>
+        <div className='bg-gradient-to-b from-cyan-100  to-cyan-900 pt-5 pb-20'>
         <Footer/>
+        <div className="fixed bottom-0 w-full">
+          <WhatsAppButton/>
         </div>
+        </div>
+
       </div>
     </>
   );

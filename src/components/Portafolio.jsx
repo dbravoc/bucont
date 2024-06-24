@@ -1,17 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import asistente1 from '../assets/img/laboraljuridico/Inicio.png';
-import asistente2 from '../assets/img/laboraljuridico/Lead.png';
-import asistente3 from '../assets/img/laboraljuridico/Chat.png';
-import asistente4 from '../assets/img/laboraljuridico/Logo.png';
-import letrip1 from '../assets/img/letriplab/Home.png';
-import letrip2 from '../assets/img/letriplab/Experiencia.png';
-import letrip3 from '../assets/img/letriplab/Multilenguaje.png';
-import letrip4 from '../assets/img/letriplab/Logo.jpg';
+import React, { useState, useEffect, useRef } from 'react';
+import demoVideoAsistente from '../assets/img/laboraljuridico/Demo laboraljuridico.mov';
+import demoVideoLeTrip from '../assets/img/letriplab/Demo letrip.mov';
 
 import { CheckIcon } from '@heroicons/react/20/solid';
-
-const asistenteImages = [asistente1, asistente2, asistente3];
-const letripImages = [ letrip1, letrip2, letrip3];
 
 const solutions = [
   {
@@ -24,11 +15,11 @@ const solutions = [
       'Interfaz amigable',
       'Confidencialidad y seguridad de los datos'
     ],
-    imageUrl: '',
+    videoUrl: demoVideoAsistente,
     visitLink: 'https://laboraljuridico.cl/'
   },
   {
-    title: 'Ecosistema digital de turismo deportivo',
+    title: 'Ecosistema de turismo deportivo',
     description: 'Marketplace de experiencias deportivas que conecta operadores turísticos con aficionados de deportes outdoor',
     features: [
       'Integración con pasarelas de pago',
@@ -37,52 +28,34 @@ const solutions = [
       'Sistemas de calificación de operadores y aficionados',
       'Interfaz personalizada según intereses deportivos'
     ],
-    imageUrl: '',
+    videoUrl: demoVideoLeTrip,
     visitLink: 'https://letriplab.com/'
   },
 ];
 
 export default function Portafolio() {
-  const [currentAsistenteImage, setCurrentAsistenteImage] = useState(0);
-  const [currentLetripImage, setCurrentLetripImage] = useState(0);
-  const [asistenteOpacity, setAsistenteOpacity] = useState(1);
-  const [letripOpacity, setLetripOpacity] = useState(1);
+  const videoRefAsistente = useRef(null);
+  const videoRefLeTrip = useRef(null);
 
   useEffect(() => {
-    const asistenteInterval = setInterval(() => {
-      setAsistenteOpacity(0);
-      setTimeout(() => {
-        setCurrentAsistenteImage(prevImage => (prevImage + 1) % asistenteImages.length);
-        setAsistenteOpacity(1);
-      }, 300); // Tiempo de la transición
-    }, 1200); // Cambia la imagen cada 3 segundos para asistente
+    if (videoRefAsistente.current) {
+      videoRefAsistente.current.playbackRate = 2.0; // Set video playback speed to double for Asistente
+    }
 
-    const letripInterval = setInterval(() => {
-      setLetripOpacity(0);
-      setTimeout(() => {
-        setCurrentLetripImage(prevImage => (prevImage + 1) % letripImages.length);
-        setLetripOpacity(1);
-      }, 300); // Tiempo de la transición
-    }, 1200); // Cambia la imagen cada 3 segundos para letrip
-
-    return () => {
-      clearInterval(asistenteInterval);
-      clearInterval(letripInterval);
-    };
+    if (videoRefLeTrip.current) {
+      videoRefLeTrip.current.playbackRate = 2.0; // Set video playback speed to double for Le Trip
+    }
   }, []);
-
-  solutions[0].imageUrl = asistenteImages[currentAsistenteImage];
-  solutions[1].imageUrl = letripImages[currentLetripImage];
 
   return (
     <div className="py-16 px-6">
       <div className="mx-auto">
         <div className="mx-auto text-left">
-          <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">Últimos productos desarrollados</div>
+          <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center pb-10">Últimos productos desarrollados</div>
         </div>
         {solutions.map((solution, index) => (
           <div key={index} className="mx-auto max-w-2xl rounded-3xl lg:mx-0 lg:flex lg:max-w-none">
-            <div className="p-10 lg:flex-auto">
+            <div className="px-10 lg:flex-auto">
               <div className='flex flex-col lg:grid lg:grid-cols-5 gap-x-10'>
                 <div className='col-span-3 lg:p-10'>
                   <h3 className="text-xl font-bold tracking-tight text-gray-900">{solution.title}</h3>
@@ -91,7 +64,7 @@ export default function Portafolio() {
                     <h4 className="flex-none text-sm font-semibold leading-6 text-cyan-900">Características</h4>
                   </div>
                   <div className="h-px flex-auto bg-gray-100" />
-                  <ul role="list" className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-900 sm:grid-cols-1">
+                  <ul role="list" className="mt-8 grid grid-cols-1 gap-0 text-sm leading-6 text-gray-900 sm:grid-cols-1">
                     {solution.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex gap-x-3">
                         <CheckIcon className="h-6 w-5 flex-none text-cyan-900" aria-hidden="true" />
@@ -99,18 +72,20 @@ export default function Portafolio() {
                       </li>
                     ))}
                   </ul>
-                  <a href={solution.visitLink} className="mt-6 block w-full rounded-md bg-cyan-100 px-3 py-2 text-center text-sm font-semibold text-cyan-900 shadow-sm hover:bg-cyan-300 hover:text-cyan-900">
-                    Visitar
-                  </a>
+
                 </div>
-                <div className='py-10 col-span-2 flex justify-center items-center'>
+                <div className='py-0 col-span-2 flex justify-center items-center'>
+                  <a href={solution.visitLink} target="_blank">
                   <div className="w-full max-w-md flex-shrink-0">
                     <div className="flex rounded-2xl text-center justify-center">
-                      <div className="mx-auto transition-opacity duration-300" style={{ opacity: solution.title.includes('Asistente') ? asistenteOpacity : letripOpacity }}>
-                        <img className='rounded-3xl w-auto h-80' src={solution.imageUrl} alt="" />
-                      </div>
+                      {solution.title.includes('Asistente') ? (
+                        <video ref={videoRefAsistente} className='rounded-3xl w-auto h-80' src={solution.videoUrl} autoPlay loop muted />
+                      ) : (
+                        <video ref={videoRefLeTrip} className='rounded-3xl w-auto h-80' src={solution.videoUrl} autoPlay loop muted />
+                      )}
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
             </div>

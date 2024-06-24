@@ -22,8 +22,8 @@ const features = [
       <div className="">
         <div className="mx-auto grid grid-cols-1 gap-x-8 px-6 py-1">
           <div>
-          <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
-            Tres etapas para crear un producto
+          <div className="tracking-tight font-bold text-cyan-900 text-2xl text-center">
+            Creamos tu producto de software en <span className='rounded-md rounded-bl-3xl px-3 py-0 text-center font-semibold shadow-sm bg-yellow-400 text-cyan-900'>tres etapas</span> 
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (

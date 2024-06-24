@@ -17,7 +17,7 @@ const features = [
     },
     { name: 'Software ERP modulares',
       icon: <FontAwesomeIcon icon={faChalkboardUser}/>,
-      description: 'Construimos softwares modulares y personalziados que resuelven necesidades específicas relacionadas a la gestión del negocio.'
+      description: 'Construimos softwares modulares y personalizados que resuelven necesidades específicas relacionadas a la gestión del negocio.'
     },
 ]
   

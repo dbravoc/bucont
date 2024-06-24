@@ -9,8 +9,8 @@ import WhatsAppButton from './Botones';
 export default function Inicio() {
   const [isOpen, setIsOpen] = useState(false);
   const navigation = [
-    { name: 'Productos', href: '#productos' },
     { name: 'Metodología', href: '#metodologia' },
+    { name: 'Productos', href: '#productos' },
     { name: 'Portafolio', href: '#portafolio' },
     { name: 'Nosotros', href: '#nosotros' },
 
@@ -22,12 +22,12 @@ export default function Inicio() {
 
   return (
     <div className="">
-      <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <header className="absolute top-0 z-50">
+        <nav className="flex items-center justify-center p-6 lg:px-8" aria-label="Global">
 
           <div className="hidden lg:flex lg:gap-x-6">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm py-2 font-semibold leading-6 text-white hover:text-cyan-300">
+              <a key={item.name} href={item.href} className="text-sm py-2 font-light leading-6 text-white hover:text-cyan-300">
                 {item.name}
               </a>
             ))}
@@ -37,12 +37,9 @@ export default function Inicio() {
               {isOpen ? <XMarkIcon className="h-6 w-6 text-cyan-100" /> : <Bars3Icon className="h-6 w-6 text-cyan-100" />}
             </button>
           </div>
-          <div className="flex flex-1 justify-end">
-          <WhatsAppButton/>
-          </div>
         </nav>
       </header>
-      <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative z-50 lg:hidden">
+      <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative  z-50 lg:hidden">
         <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
         <div className="fixed inset-0 flex justify-center items-center p-4">
           <Dialog.Panel className="mx-auto max-w-sm w-full bg-gray-900 rounded-lg p-6">
