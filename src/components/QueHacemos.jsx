@@ -14,7 +14,7 @@ export default function Inicio() {
             ¿Qué hacemos?
           </div>
           <div className=" tracking-tight  text-cyan-900 text-md py-4 pb-10 text-center mx-10">
-          <strong>Transformamos</strong> digitalmente medianas empresas, <strong>creando</strong> de software a medida.
+          <strong>Transformamos</strong> digitalmente medianas empresas, <strong>creando</strong> software a medida.
           </div>
         <div className="tracking-tight font-bold text-cyan-900 text-3xl my-5">
             Nuestro impacto
