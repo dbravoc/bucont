@@ -38,7 +38,7 @@ const features = [
           <h1 className="text-xl text-center font-bold tracking-tight text-gray-900 pt-16 pb-10 ">
               Consultor Fundador
           </h1>
-          Soy David Bravo, fundador de BUCONT, Ingeniero Civil Industrial de la USM y Desarrollador Full-Stack certificado. Especialista en la creación de productos tecnológicos digitales. Luego de 8 años adquiriendo experiencia en grandes empresas, el 2023 decidí crear mi propia consultora y conectar a los mejores talentos en investigación, diseño e ingeniería.
+          Soy David Bravo, fundador de BUCONT, Ingeniero Civil Industrial de la USM y Desarrollador Full-Stack certificado. Especialista en la creación de productos tecnológicos digitales.
           </p>
           </div>
 
