@@ -2,23 +2,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 
 const features = [
-    { name:'Sitios web a medida',
+    { name:'Consultoría estratégica tech',
     icon: <FontAwesomeIcon icon={faWindowMaximize} />,
-    description:'Combinamos diseño único, tecnología avanzada y estrategia digital para ofrecer soluciones web óptimas y personalizadas.'
+    description:'Evaluamos tus necesidades tecnológicas y desarrollamos estrategias alineadas con tus objetivos de negocio, proporcionando un roadmap claro y personalizado para la evolución tecnológica.'
     },
 
-    { name: 'Integraciones con Chat GPT',
-    icon:<FontAwesomeIcon icon={faMicrochip}/>,
-    description: 'Integramos en tu plataforma tecnología de OpenAI para el aumento de ventas y optimización de procesos.' 
+    { name: 'Desarrollo y gestión de proyectos tech',
+    icon:<FontAwesomeIcon icon={faChalkboardUser}/>,
+    description: 'Implementamos y gestionamos proyectos tecnológicos a medida, utilizando metodologías ágiles y DevOps para asegurar una ejecución rápida y eficiente.' 
     },
-    { name: 'E-commerce', 
-      icon:<FontAwesomeIcon icon={faMoneyBillTransfer} />, 
-      description: 'Aseguramos un alto rendimiento y experiencia de usuario óptima para optimizar tus resultados de negocio. '
-    },
-    { name: 'Software ERP modulares',
-      icon: <FontAwesomeIcon icon={faChalkboardUser}/>,
-      description: 'Construimos softwares modulares y personalizados que resuelven necesidades específicas relacionadas a la gestión del negocio.'
-    },
+    { name: 'Soporte técnico y mantenimiento', 
+      icon:<FontAwesomeIcon icon={faRobot} />, 
+      description: 'Ofrecemos soporte técnico continuo y especializado, junto con mantenimiento preventivo y correctivo para asegurar la operatividad de tus soluciones tecnológicas.'
+    }
 ]
   
   export default function Servicios() {
@@ -27,7 +23,7 @@ const features = [
         <div className="mx-auto grid grid-cols-1 gap-x-8 px-6 py-1">
           <div>
           <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
-            Nuestros productos
+            Nuestros servicios
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (

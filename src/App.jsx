@@ -11,6 +11,8 @@ import Footer from './components/Footer';
 import Portafolio from './components/Portafolio';
 import QuienesSomos from './components/QuienesSomos';
 import QueHacemos from './components/QueHacemos';
+import NuestroImpacto from './components/NuestroImpacto';
+
 import WhatsAppButton from './components/Botones';
 
 
@@ -28,15 +30,19 @@ const App = () => {
         <Inicio />
         </div>
 
-        <div className="bg-cyan-100 py-20  flex justify-center flex-wrap">
+        <div className="bg-cyan-100 pt-20 pb-16  flex justify-center flex-wrap">
         <QueHacemos />
         </div>
 
-        <div id="productos" className='bg-gradient-to-b from-cyan-100 to-white py-20 w-full'  >
-        <Metodologia/>
+        <div className="bg-cyan-100 pb-4  flex justify-center flex-wrap">
+        <NuestroImpacto />
+        </div>
+
+        <div id="servicios" className='bg-gradient-to-b from-cyan-100 to-white py-20 w-full'  >
+        <Servicios/>
         </div>
         <div id='metodologia' className='bg-gradient-to-b from-white to-cyan-100 py-10 w-full '>
-        <Servicios/>
+        <Metodologia/>
         </div>
         <div id="portafolio" className='bg-gradient-to-b from-cyan-100 to-white py-10 '>
         <Portafolio/>

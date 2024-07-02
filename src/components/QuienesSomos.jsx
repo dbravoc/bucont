@@ -3,9 +3,9 @@ import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faWindowMax
 import DavidProfile from '../assets/img/PerfilCuadradoByN.jpeg'
 
 const features = [
-    { name:'Product Consultant',
+    { name:'Tech Consultant',
     icon: <FontAwesomeIcon icon={faPeopleRoof} />,
-    description:'Coordina y supervisa el desarrollo de un producto desde la idea hasta su lanzamiento.  '
+    description:'Coordina y supervisa el desarrollo de un proyecto desde la idea hasta su lanzamiento.  '
     },
 
     { name: 'UX Designer',
@@ -15,7 +15,7 @@ const features = [
 
     { name: 'Web Developer', 
       icon:<FontAwesomeIcon icon={faUserGear} />, 
-      description: 'Desarrolla la tecnología construir el prototipo diseñado. En el frontend, crea interfaces interactivas y visualmente atractivas. En el backend, se encarga de la lógica de la aplicación, bases de datos y la integración de sistemas. '
+      description: 'Desarrolla la tecnología construir el prototipo diseñado. En el frontend, crea interfaces interactivas y atractivas. En el backend, se encarga de la lógica de la aplicación, bases de datos y la integración de sistemas. '
     },
 ]
   
@@ -38,7 +38,7 @@ const features = [
           <h1 className="text-xl text-center font-bold tracking-tight text-gray-900 pt-16 pb-10 ">
               Consultor Fundador
           </h1>
-          Soy David Bravo, fundador de BUCONT, Ingeniero Civil Industrial de la USM y Desarrollador Full-Stack certificado. Especialista en la creación de productos tecnológicos digitales.
+          Soy David Bravo, fundador de BUCONT, Ingeniero Civil Industrial USM y Desarrollador Full-Stack certificado. Especialista en crear soluciones empresariales basadas en tecnología y consultoría.
           </p>
           </div>
 

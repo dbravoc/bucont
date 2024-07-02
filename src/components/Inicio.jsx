@@ -5,13 +5,20 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import bucont from '../assets/img/BUCONT1.png';
 
 const RotatingText = () => {
-  const texts = ['Websites', 'Ecommerce','Software as a Service','Process Automation', 'GPT Assistants', 'Software ERP', 'Integrations'];
+  const texts = 
+  [
+  'Confianza',
+  'Calidad',
+  'Velocidad', 
+  'Eficiencia',
+
+  ];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 800);
+    }, 1200);
 
     return () => clearInterval(interval);
   }, []);
@@ -32,9 +39,9 @@ export default function Inicio() {
             <span className='text-cyan-300'>bucont</span>.com
           </div>
           <div className=" tracking-tight  text-cyan-100 text-md py-4 text-center">
-            Consultora de productos de software<span className='text-yellow-400 font-semibold'> a medida</span>
+            Tu gerencia <span className='text-yellow-400 font-semibold'>remota</span> de soluciones<span className='text-2xl font-bold'> tech</span> 
           </div>
-          <div className='rounded-md rounded-bl-3xl px-3 py-2 text-center text-xl font-semibold shadow-sm bg-yellow-400 text-cyan-900'>
+          <div className='rounded-md rounded-bl-3xl px-3 py-2 text-center text-lg font-semibold shadow-sm bg-yellow-400 text-cyan-900'>
           <RotatingText />
           </div>
         </div>
