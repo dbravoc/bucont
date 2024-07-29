@@ -1,10 +1,25 @@
 import React, { useState, useEffect, useRef } from 'react';
 import demoVideoAsistente from '../assets/img/laboraljuridico/Demo laboraljuridico.mov';
 import demoVideoLeTrip from '../assets/img/letriplab/Demo letrip.mov';
+import demoVideoMisterios from '../assets/img/misteriosdelelqui/videomisterios.mov'
 
 import { CheckIcon } from '@heroicons/react/20/solid';
 
 const solutions = [
+  {
+    title: 'Property Management System',
+    description: 'Reserva mediante tu propio sitio web y gestiona disponibilidad, reservas y pagos',
+    features: [
+      'Sitio web personalizado',
+      'Gestión de reservas',
+      'Gestión de disponibilidad',
+      'Gestión de pagos',
+      'Integración con pasarelas de pago',
+      'Integración con Channel Managers'
+    ],
+    videoUrl: demoVideoMisterios,
+    visitLink: 'https://misteriosdelelqui-frontend.vercel.app/'
+  },
   {
     title: 'Asistente jurídico GPT',
     description: 'Resuelve automáticamente consultas jurídicas a usuarios finales que necesiten asistencia de un abogado ',
@@ -19,7 +34,7 @@ const solutions = [
     visitLink: 'https://laboraljuridico.cl/'
   },
   {
-    title: 'Ecosistema de turismo deportivo',
+    title: 'Marketplace de turismo deportivo',
     description: 'Marketplace de experiencias deportivas que conecta operadores turísticos con aficionados de deportes outdoor',
     features: [
       'Integración con pasarelas de pago',
