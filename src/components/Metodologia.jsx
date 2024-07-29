@@ -15,7 +15,7 @@ const features = [
     icon:<FontAwesomeIcon icon={fa3}/>,
     description: 'Desarrollamos y desplegamos el software, proporcionando documentación, material audiovisual y sesiones de inducción.' 
     },
-    { name: 'Mantenimiento', 
+    { name: 'Continuidad operacional', 
       icon:<FontAwesomeIcon icon={fa4} />, 
       description: 'Ofrecemos suscripción mensual, semestral o anual, permitiendo mantenimiento continuo y nuevas funcionalidades según necesidades del cliente.'
     }
@@ -27,7 +27,7 @@ const features = [
         <div className="mx-auto grid grid-cols-1 gap-x-8 px-6 py-1">
           <div>
           <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
-            Desarrollamos tu solución tech en <span className='rounded-md rounded-bl-3xl px-3 py-0 text-center font-semibold shadow-sm bg-yellow-400 text-cyan-900'>cuatro etapas</span> 
+            Desarrollamos tu solución en <span className='rounded-md rounded-bl-3xl px-3 py-0 text-center font-semibold shadow-sm bg-yellow-400 text-cyan-900'>cuatro etapas</span> 
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (

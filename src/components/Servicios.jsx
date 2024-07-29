@@ -2,16 +2,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 
 const features = [
-    { name:'Consultoría estratégica tech',
+    { name:'Consultoría tecnológica estratégica',
     icon: <FontAwesomeIcon icon={faWindowMaximize} />,
     description:'Evaluamos tus necesidades tecnológicas y desarrollamos estrategias alineadas con tus objetivos de negocio, proporcionando un roadmap claro y personalizado para la evolución tecnológica.'
     },
 
-    { name: 'Desarrollo y gestión de proyectos tech',
+    { name: 'Desarrollo y gestión de proyectos tecnológicps',
     icon:<FontAwesomeIcon icon={faChalkboardUser}/>,
     description: 'Implementamos y gestionamos proyectos tecnológicos a medida, utilizando metodologías ágiles y DevOps para asegurar una ejecución rápida y eficiente.' 
     },
-    { name: 'Soporte técnico y mantenimiento', 
+    { name: 'Soporte técnico y continuidad operacional', 
       icon:<FontAwesomeIcon icon={faRobot} />, 
       description: 'Ofrecemos soporte técnico continuo y especializado, junto con mantenimiento preventivo y correctivo para asegurar la operatividad de tus soluciones tecnológicas.'
     }
