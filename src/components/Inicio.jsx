@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import bucont from '../assets/img/BUCONT1.png';
+
 
 const RotatingText = () => {
   const texts = 

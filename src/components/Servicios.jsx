@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoneyBillTransfer, faRobot,faMicrochip, faChalkboardUser, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
+import { faRobot, faChalkboardUser, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 
 const features = [
     { name:'Consultoría tecnológica estratégica',
