@@ -11,18 +11,23 @@ const App = () => {
   return (
     <Router>
       <div className="mx-0 font-poppins">
-        <Header />
         <Routes>
-          <Route path="/" element={<InicioPage />} />  
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <InicioPage />
+                <div className="fixed bottom-0 w-full">
+                  <WhatsAppButton />
+                </div>
+              </>
+            }
+          />
           <Route path="/success" element={<PagoExitoso />} />
-          <Route path="/failure" element={<PagoFallido />} /> 
-          <Route path="/pending" element={<PagoPendiente />} /> 
- 
-
+          <Route path="/failure" element={<PagoFallido />} />
+          <Route path="/pending" element={<PagoPendiente />} />
         </Routes>
-        <div className="fixed bottom-0 w-full">
-          <WhatsAppButton />
-        </div>
       </div>
     </Router>
   );
