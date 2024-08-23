@@ -4,44 +4,35 @@ import demoVideoLeTrip from '../assets/img/letriplab/Demo letrip.mov';
 import demoVideoMisterios from '../assets/img/misteriosdelelqui/videomisterios.mov'
 import { CheckIcon } from '@heroicons/react/20/solid';
 import './css/Portafolio.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faEarlybirds } from '@fortawesome/free-brands-svg-icons';
+
+
 const solutions = [
   {
-    title: 'Sistema de reservas hotelero PMS',
-    description: 'Ahorra dinero en comisiones y utiliza tu propio sistema de reservas para tu hotel ',
+    title: 'PLAN BASIC',
+    description: 'Enfocado en negocios que están comenzando a digitalizarse ',
     features: [
-      'Motor de reservas para huéspedes',
-      'Panel de administración para anfitriones',
-      'Conexión con pasarelas de pago',
-      'Conexión con Channel Manager'
-    ],
-    videoUrl: demoVideoMisterios,
-    visitLink: 'https://huesped.bucont.com/'
+        'Marketing digital básico',
+        'E-Commerce Shopify',
+        'Pasarelas de pago',
+        'Sitios dinámicos'
+      ],
+      icon: <FontAwesomeIcon icon={faEarlybirds} />,
+
   },
   {
-    title: 'Sitio dinámico con asistente Open AI',
-    description: 'Aumenta el tráfico e interacción con tu sitio web con un asistente virtual potenciado con Chat GPT de Open AI',
+    title: 'PLAN CORE',
+    description: 'Para negocios con mayor demanda y necesidades de digitalización',
     features: [
-      'Respuestas automáticas en base a prompts personalizados',
-      'Generador de Leads',
-      'Bases de conocimiento personalizadas',
-      'Interfaz amigable',
-      'Confidencialidad y seguridad de los datos'
+      'Marketing digital avanzado',
+      'E-Commerce + Inventario personalizado',
+      'Sistema de reservas hotelería PMS',
+      'Micro-Apps'
     ],
-    videoUrl: demoVideoAsistente,
-    visitLink: 'https://laboraljuridico.cl/'
-  },
-  {
-    title: 'E-Commerce con inventario',
-    description: 'Plataforma de E-Commerce con administración de inventario y pasarelas de pago',
-    features: [
-      'Sitio e-commerce',
-      'Carrito de compra',
-      'Pasarelas de pago',
-      'Inventario',
-      'Punto de venta en tienda'
-    ],
-    videoUrl: demoVideoLeTrip,
-    visitLink: 'https://letriplab.com/'
+    icon: <FontAwesomeIcon icon={faGlobe} />,
+
   },
 ];
 
@@ -70,10 +61,13 @@ export default function Portafolio() {
             <div className="px-10 lg:flex-auto">
               <div className='flex flex-col lg:grid lg:grid-cols-5 gap-x-10'>
                 <div className='col-span-3 lg:p-10'>
+                <div className='text-5xl flex justify-left items-center text-cyan-700'>
+                    {solution.icon}
+                  </div>
                   <h3 className="text-xl font-bold tracking-tight text-gray-900">{solution.title}</h3>
                   <p className="mt-6 text-left text-base leading-7 text-gray-900">{solution.description}</p>
                   <div className="mt-6 flex items-center gap-x-4">
-                    <h4 className="flex-none text-sm font-semibold leading-6 text-cyan-900">Características</h4>
+                    <h4 className="flex-none text-sm font-semibold leading-6 text-cyan-900">Acceso a:</h4>
                   </div>
                   <div className="h-px flex-auto bg-gray-100" />
                   <ul role="list" className="mt-8 grid grid-cols-1 gap-0 text-sm leading-6 text-gray-900 sm:grid-cols-1">
@@ -85,22 +79,6 @@ export default function Portafolio() {
                     ))}
                   </ul>
 
-                </div>
-                <div className='py-0 col-span-2 flex justify-center items-center'>
-                  <a href={solution.visitLink} target="_blank">
-                  <div className="w-full max-w-md flex-shrink-0">
-                    <div className="flex rounded-2xl text-center justify-center">
-                    <div className="my-4 rounded-full bg-black">
-
-                      {solution.title.includes('Asistente') ? (
-                        <video ref={videoRefAsistente} className='rounded-full w-auto h-80' src={solution.videoUrl} autoPlay loop muted />
-                      ) : (
-                        <video ref={videoRefLeTrip} className='rounded-full w-auto h-80' src={solution.videoUrl} autoPlay loop muted />
-                      )}
-                    </div>
-                    </div>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>

@@ -3,9 +3,8 @@ import Inicio from '../components/Inicio';
 import QueHacemos from '../components/QueHacemos';
 import NuestroImpacto from '../components/NuestroImpacto';
 import Servicios from '../components/Servicios';
-import Metodologia from '../components/Metodologia';
+import Planes from '../components/Planes';
 import Portafolio from '../components/Portafolio';
-import QuienesSomos from '../components/QuienesSomos';
 import Footer from '../components/Footer';
 
 const InicioPage = () => {
@@ -23,17 +22,16 @@ const InicioPage = () => {
       <div id="servicios" className="bg-gradient-to-b from-cyan-100 to-white py-20 w-full">
         <Servicios />
       </div>
-      <div id="metodologia" className="bg-gradient-to-b from-white to-cyan-100 py-10 w-full">
-        <Metodologia />
+      <div id="planes" className="bg-gradient-to-b from-white to-cyan-100 py-10 w-full">
+        <Planes />
       </div>
-      <div id="portafolio" className="bg-gradient-to-b from-cyan-100 to-white py-10">
+      <div id="productos" className="bg-gradient-to-b from-cyan-100 via-cyan-100 to-cyan-100 py-10">
         <Portafolio />
       </div>
-      <div id="nosotros" className="bg-gradient-to-b from-white to-cyan-100 pb-32 w-full">
-        <QuienesSomos />
-      </div>
+      <div className="bg-gradient-to-b from-cyan-100 via-cyan-800 to-black py-10">
       <Footer />
-    </>
+      </div>
+      </>
   );
 };
 

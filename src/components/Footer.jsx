@@ -1,28 +1,37 @@
+import React from 'react';
+import { Link } from 'react-router-dom';  // Importación añadida para que funcione el Link
+import './css/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faSquareInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import bucont from '../assets/img/BUCONT1.png'
+import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+const Footer = () => {
+  const logo = "https://lqieogqayryfoykmpoey.supabase.co/storage/v1/object/public/imagenes/logo%20bucont%20azul%20png";
+  return (
+    <div className="footer ">
+      <div className="logo-container-footer">
+        <img src={logo} alt="Imagen Logo" className='logo-footer' />
 
-
-export default function Footer() {
-    return (
-      <div className='flex flex-col items-center'>
-          <div className="tracking-tight font-bold text-cyan-500 text-4xl">
-            <span className='text-cyan-900'>bucont</span>.com
-          </div>
-      <div className='flex'>
-      <ul className="text-xs text-center font-semibold leading-6 text-cyan-900">
-        <li>david@bucont.com</li>
-        <li className='pt-4'> 
-        <div>
-          <a className='text-cyan-100 hover:text-cyan-300 px-2' href="https://www.linkedin.com/company/bucont/"><FontAwesomeIcon icon={faLinkedin} className="mr-2 text-4xl" /></a>
-          <a className='text-cyan-100 hover:text-cyan-300 px-2' href="https://wa.me/56992438343?text=Hola,%20quisiera%20más%20información%20de%20Bucont"><FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-4xl" /></a>
-        </div>
-        </li>
-
-      </ul>
-
+      </div> 
+      <div className='column-footer-description'> 
+          <p className='p1'>Bucont SpA</p> 
+          <p className='p2'>Oficina de soluciones tecnológicas </p>
       </div>
+      <div className="column-footer-rows">
+        <p className="contact-title">Contacto</p> 
+        <p className="contact-info"> david@bucont.com</p>
+        
       </div>
-    );
-  }
-  
+      <div className="column-footer-rows">
+        <p className="contact-title">Encuentranos en</p>       
+        <div className="column-footer-columns gap-x-5">
+          <a href="https://www.instagram.com/bucont.tech/" target="_blank" rel="noopener noreferrer" className="rrss">
+            <FontAwesomeIcon icon={faInstagram} size="xl" className="text-white" />
+          </a>
+        </div> 
+      
+      </div> 
+
+    </div>
+  );
+};
+
+export default Footer;

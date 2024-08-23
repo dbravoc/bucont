@@ -10,10 +10,9 @@ export default function Inicio() {
   const [isOpen, setIsOpen] = useState(false);
   const navigation = [
     { name: 'Servicios', href: '#servicios' },
-    { name: 'Metodología', href: '#metodologia' },
-    { name: 'Portafolio', href: '#portafolio' },
-    { name: 'Nosotros', href: '#nosotros' },
-
+    { name: 'Planes', href: '#planes' },
+    { name: 'Productos', href: '#productos' },
+    
   ];
 
   const toggleMenu = () => {
