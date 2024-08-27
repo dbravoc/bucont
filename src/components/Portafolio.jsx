@@ -6,6 +6,19 @@ import { CheckIcon } from '@heroicons/react/20/solid';
 import './css/Portafolio.css';
 const solutions = [
   {
+    title: 'E-Commerce con inventario',
+    description: 'Plataforma de E-Commerce con administración de inventario y pasarelas de pago',
+    features: [
+      'Sitio e-commerce',
+      'Carrito de compra',
+      'Pasarelas de pago',
+      'Inventario',
+      'Punto de venta en tienda'
+    ],
+    videoUrl: demoVideoLeTrip,
+    visitLink: 'https://letriplab.com/'
+  },
+  {
     title: 'Sistema de reservas hotelero PMS',
     description: 'Ahorra dinero en comisiones y utiliza tu propio sistema de reservas para tu hotel ',
     features: [
@@ -30,19 +43,7 @@ const solutions = [
     videoUrl: demoVideoAsistente,
     visitLink: 'https://laboraljuridico.cl/'
   },
-  {
-    title: 'E-Commerce con inventario',
-    description: 'Plataforma de E-Commerce con administración de inventario y pasarelas de pago',
-    features: [
-      'Sitio e-commerce',
-      'Carrito de compra',
-      'Pasarelas de pago',
-      'Inventario',
-      'Punto de venta en tienda'
-    ],
-    videoUrl: demoVideoLeTrip,
-    visitLink: 'https://letriplab.com/'
-  },
+
 ];
 
 export default function Portafolio() {

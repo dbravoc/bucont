@@ -22,7 +22,7 @@ export default function Inicio() {
         </div>
         <div className='rounded-md rounded-bl-3xl px-3 py-2 text-center shadow-md border-yellow-300 bg-gradient-to-b from-cyan-100 via-cyan-100 to-cyan-50 text-cyan-900'>
         <FontAwesomeIcon className='text-3xl' icon={faRotateRight} />
-        <br />Garantizamos <strong className='text-xl'>continuidad operacional</strong> en todas nuestras soluciones. 
+        <br />Garantizamos <strong className='text-xl'>continuidad operacional</strong> en todos nuestros servicios. 
         </div>
 
           

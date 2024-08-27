@@ -3,23 +3,23 @@ import { faRobot, faChalkboardUser, faWindowMaximize } from '@fortawesome/free-s
 
 const features = [
 
-    { name:'Consultoría tecnológica estratégica',
+    { name:'Asesoría estratégica digital',
     icon: <FontAwesomeIcon icon={faWindowMaximize} />,
     description:'Evaluamos tus necesidades tecnológicas y desarrollamos estrategias alineadas con tus objetivos de negocio, proporcionando un roadmap claro y personalizado para la evolución tecnológica.'
     },
 
-    { name:'Marketing digital y redes sociales',
+    { name:'Marketing digital',
       icon: <FontAwesomeIcon icon={faWindowMaximize} />,
       description:'Optimizamos la presencia en línea de tu negocio con estrategias digitales integrales.'
       },
 
-    { name: 'Aplicaciones web',
+    { name: 'Software en la nube',
     icon:<FontAwesomeIcon icon={faChalkboardUser}/>,
-    description: 'Digitalizamos tu operación creando o integrándonos a aplicaciones web que se adapten a tu negocio.' 
+    description: 'Digitalizamos tu operación creando o integrándonos a softwares que se adapten a tu negocio.' 
     },
     { name: 'Soporte y continuidad operacional', 
       icon:<FontAwesomeIcon icon={faRobot} />, 
-      description: 'Ofrecemos soporte técnico continuo y especializado, junto con mantenimiento preventivo y correctivo para asegurar la operatividad de tus soluciones tecnológicas.'
+      description: 'Ofrecemos soporte técnico continuo y especializado, junto con mantenimiento preventivo y correctivo para asegurar la operatividad de tus servicios.'
     }
 ]
   

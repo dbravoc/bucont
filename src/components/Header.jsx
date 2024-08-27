@@ -1,10 +1,6 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import bucont from '../assets/img/BUCONT1.png';
-import WhatsAppButton from './Botones';
 
 export default function Inicio() {
   const [isOpen, setIsOpen] = useState(false);
