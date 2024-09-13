@@ -41,7 +41,7 @@ const solutions = [
       'Confidencialidad y seguridad de los datos'
     ],
     gifUrl: demoGifAsistente,
-    visitLink: 'https://laboraljuridico.cl/'
+    visitLink: 'https://asistente.bucont.com/'
   },
 ];
 
