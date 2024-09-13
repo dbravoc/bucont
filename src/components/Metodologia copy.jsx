@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fa0, fa1, fa2, fa3, fa4 } from '@fortawesome/free-solid-svg-icons';
+import {  fa1, fa2, fa3, fa4 } from '@fortawesome/free-solid-svg-icons';
 
 const features = [
     { name:'Plan BASIC',

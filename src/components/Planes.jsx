@@ -1,43 +1,69 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import { faEarlybirds } from '@fortawesome/free-brands-svg-icons';
+import { faBullhorn, faGlobe, faLightbulb, faStore } from '@fortawesome/free-solid-svg-icons';
+import {  } from '@fortawesome/free-brands-svg-icons';
 import { CheckIcon } from '@heroicons/react/20/solid';
 
 const features = [
 
   {
-    name: 'PLAN BASIC',
-    description: 'Enfocado en negocios que están comenzando a digitalizarse ',
+    name: 'Software para negocios',
+    description: 'Desde 6 UF al mes',
     features: [
-        'Marketing digital básico',
-        'E-Commerce Shopify',
-        'Pasarelas de pago',
-        'Sitios dinámicos'
-      ],
-      icon: <FontAwesomeIcon icon={faEarlybirds} />,
-
+      'Tiendas online personalizadas',
+      'Carrito de compra',
+      'Gestión de reservas online',
+      'Pasarela de pago',
+      'Asistentes con Inteligencia Artificial',
+      'Actualizaciones y soporte continuo'
+    ],
+    icon: <FontAwesomeIcon icon={faStore} />
   },
   {
-    name: 'PLAN CORE',
-    description: 'Para negocios con mayor demanda y necesidades de digitalización',
+    name: 'Marketing digital',
+    description: 'Desde 4 UF mensual',
     features: [
-      'Marketing digital avanzado',
-      'E-Commerce + Inventario personalizado',
-      'Sistema de reservas hotelería PMS',
-      'Micro-Apps'
+      'Estrategias SEO/SEM optimizadas en Google',
+      'Campañas publicitarias efectivas en Google Ads',
+      'Reportes con Google Analytics',
+      'Actualizaciones y soporte continuo'
     ],
-    icon: <FontAwesomeIcon icon={faGlobe} />,
-
+    icon: <FontAwesomeIcon icon={faBullhorn} />
   },
+  {
+    name: 'Sitio web',
+    description: 'Desde 1 UF mensual',
+    features: [
+      'Diseño desktop y mobile',
+      'Desarrollo (no usamos WordPress)',
+      'El código es tuyo',
+      'Landing Page',
+      'Conexión con WhatsApp',
+      'Conexión con Hosting + Dominio',
+      'Actualizaciones y soporte continuo',
+    ],
+    icon: <FontAwesomeIcon icon={faGlobe} />
+  },
+  {
+    name: 'Consultoría estratégica personalizada',
+    description: '13 UF por programa',
+    features: [
+      'Herramientas de inteligencia artificial para tu negocio',
+      'Metodologías innovación de productos de software',
+      'Transformación digital y metodologías ágiles',
+      'Construye tu customer journey',
+      'Modelo de negocios y estructura financiera'
+    ],
+    icon: <FontAwesomeIcon icon={faLightbulb} />
+  }
 ]
   
   export default function Servicios() {
     return (
       <div className="">
-        <div className="mx-auto grid grid-cols-1 gap-x-8 px-6 py-1">
+        <div className="mx-auto grid grid-cols-1 gap-x-8 py-1">
           <div>
           <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
-            Nuestros planes
+            Nuestros servicios
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (
@@ -48,7 +74,6 @@ const features = [
                   <div>
                     <dt className="mt-2 text-xl lg:text-left text-center font-bold text-gray-700">{feature.name}</dt>
                     <dd className="mt-2 text-center lg:text-left text-sm text-gray-500">{feature.description}</dd>
-                    <p className="mt-2 font-semibold text-center lg:text-left text-sm text-gray-900">Tendrás acceso a:</p>
                     <ul role="list" className="mt-2 grid grid-cols-1 gap-0 text-sm leading-6 text-gray-900 sm:grid-cols-1">
                     {feature.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex gap-x-3">

@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="column-footer-rows">
         <p className="contact-title">Encuentranos en</p>       
         <div className="column-footer-columns gap-x-5">
-          <a href="https://www.instagram.com/bucont.tech/" target="_blank" rel="noopener noreferrer" className="rrss">
+          <a href="https://www.instagram.com/bucont.digital/" target="_blank" rel="noopener noreferrer" className="rrss">
             <FontAwesomeIcon icon={faInstagram} size="xl" className="text-white" />
           </a>
         </div> 

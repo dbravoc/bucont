@@ -4,11 +4,11 @@ export default function Inicio() {
     <>
         <div className="flex flex-col justify-center items-center">
 
-          <div className="tracking-tight text-center font-semibold text-cyan-700 text-xl">
-          Transformamos <span className='rounded-md rounded-bl-3xl px-3 py-0 text-center font-semibold shadow-sm bg-yellow-400 text-cyan-900'>ideas</span> en 
-         <br /><span className='text-4xl text-center text-cyan-900'>servicios de software</span> 
-          <br />para tu <span>empresa</span>
-          </div>
+        <div className='text-xl rounded-md rounded-bl-3xl px-3 py-2 text-center  border-yellow-300  text-cyan-900'>
+          <p>
+          <span className="text-3xl">Digitalizamos</span> los canales de venta de <span className="text-3xl">PYMES</span>, logrando su crecimiento en menos de <span className="text-3xl">6 meses</span> sin grandes inversiones tecnológicas.
+          </p>
+        </div>
 
           
         

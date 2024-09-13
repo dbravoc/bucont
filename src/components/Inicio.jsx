@@ -5,9 +5,10 @@ import logo from '../assets/img/logos/logo bucont.png'
 const RotatingText = () => {
   const texts = 
   [
-  'Eficiencia',
-  'Velocidad', 
-  'Continuidad',
+  'Software para negocios',
+  'Marketing digital', 
+  'Sitios web',
+  'Consultoría estratégica'
 
   ];
 
@@ -32,17 +33,25 @@ const RotatingText = () => {
 export default function Inicio() {
 
   return (
+    <>
+    <div className='flex flex-col justify-center items-center lg:flex-row lg:justify-between'>
+    <div>
         <div className="flex flex-col justify-center items-center">
-
           <div className="tracking-tight font-bold text-cyan-100 text-6xl">
           <img src={logo} alt="Imagen Logo" className='logo-inicio' />
           </div>
           <div className=" tracking-tight  text-cyan-100 text-md py-4 text-center">
-            Tu oficina <span className='text-yellow-400 font-semibold'>remota</span> de servicios de<span className='text-2xl font-bold'> software</span> 
+            Tu oficina <span className='text-yellow-400 font-semibold'>remota</span> de soluciones digitales
           </div>
           <div className='rounded-md rounded-bl-3xl px-3 py-2 text-center text-lg font-semibold shadow-sm bg-yellow-400 text-cyan-900'>
           <RotatingText />
           </div>  
         </div>
+      </div>
+      <div>
+          <img className='w-52 h-auto' src="src/assets/img/GIF Bucont.gif" alt="" />
+      </div>
+      </div>
+    </>
   );
 }
