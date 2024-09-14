@@ -1,4 +1,6 @@
 
+import GIFTiendaVirtual from '../assets/img/GIF Tienda online.gif'
+
 export default function Inicio() {
   return (
     <>
@@ -8,6 +10,15 @@ export default function Inicio() {
           <h1 className="font-bold ">COMIENZA A CRECER HOY MISMO</h1>
           <p>Somos expertos en digitalizar tus ventas</p>
         </div>
+        <div className='py-0 col-span-2 flex justify-center items-center'>
+                    <div className="w-full max-w-md flex-shrink-0">
+                      <div className="flex rounded-2xl text-center justify-center">
+                        <div className="my-4 rounded-full bg-black">
+                          <img className='w-full h-auto' src={GIFTiendaVirtual}/>
+                        </div>
+                      </div>
+                    </div>
+                </div>
         
 
         </div>

@@ -62,22 +62,22 @@ const features = [
       <div className="">
         <div className="mx-auto grid grid-cols-1 gap-x-8 py-1">
           <div>
-          <div className="tracking-tight font-bold text-cyan-900 text-3xl text-center">
-            Nuestros servicios
+          <div className="tracking-tight font-bold text-cyan-50 text-3xl text-center">
+            SERVICIOS
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (
                 <div key={feature.name} className="flex flex-col justify-center items-center lg:grid lg:grid-cols-[1fr_9fr] border-t border-gray-200 pt-4">
-                  <div className='text-5xl flex justify-left items-center text-cyan-700'>
+                  <div className='text-5xl flex justify-left items-center text-yellow-500'>
                     {feature.icon}
                   </div>
                   <div>
-                    <dt className="mt-2 text-xl lg:text-left text-center font-bold text-gray-700">{feature.name}</dt>
-                    <dd className="mt-2 text-center lg:text-left text-sm text-gray-500">{feature.description}</dd>
-                    <ul role="list" className="mt-2 grid grid-cols-1 gap-0 text-sm leading-6 text-gray-900 sm:grid-cols-1">
+                    <dt className="mt-2 text-xl lg:text-left text-center font-bold text-yellow-500">{feature.name}</dt>
+                    <dd className="mt-2 text-center lg:text-left text-sm text-cyan-500">{feature.description}</dd>
+                    <ul role="list" className="mt-2 grid grid-cols-1 gap-0 text-sm leading-6 text-cyan-50 sm:grid-cols-1">
                     {feature.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex gap-x-3">
-                        <CheckIcon className="h-6 w-5 flex-none text-cyan-900" aria-hidden="true" />
+                        <CheckIcon className="h-6 w-5 flex-none text-yellow-50" aria-hidden="true" />
                         {feature}
                       </li>
                     ))}

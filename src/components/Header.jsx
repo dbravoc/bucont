@@ -6,8 +6,7 @@ export default function Inicio() {
   const [isOpen, setIsOpen] = useState(false);
   const navigation = [
     { name: 'Servicios', href: '#servicios' },
-    { name: 'Planes', href: '#planes' },
-    { name: 'Productos', href: '#productos' },
+    { name: 'Portafolio', href: '#planes' },
     
   ];
 
