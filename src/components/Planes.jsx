@@ -7,7 +7,7 @@ const features = [
 
   {
     name: 'Software para negocios',
-    description: 'Desde 6 UF al mes',
+    description: 'Desde 6 UF mensual + IVA',
     features: [
       'Tiendas online personalizadas',
       'Carrito de compra',
@@ -20,7 +20,7 @@ const features = [
   },
   {
     name: 'Marketing digital',
-    description: 'Desde 4 UF mensual',
+    description: 'Desde 4 UF mensual + IVA',
     features: [
       'Estrategias SEO/SEM optimizadas en Google',
       'Campañas publicitarias efectivas en Google Ads',
@@ -31,7 +31,7 @@ const features = [
   },
   {
     name: 'Sitio web',
-    description: 'Desde 1 UF mensual',
+    description: 'Desde 1 UF mensual + IVA',
     features: [
       'Diseño desktop y mobile',
       'Desarrollo (no usamos WordPress)',
@@ -45,7 +45,7 @@ const features = [
   },
   {
     name: 'Consultoría estratégica personalizada',
-    description: '13 UF por programa',
+    description: '13 UF por programa + IVA',
     features: [
       'Herramientas de inteligencia artificial para tu negocio',
       'Metodologías innovación de productos de software',

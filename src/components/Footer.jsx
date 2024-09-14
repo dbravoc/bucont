@@ -13,7 +13,7 @@ const Footer = () => {
       </div> 
       <div className='column-footer-description'> 
           <p className='p1'>Bucont SpA</p> 
-          <p className='p2'>Oficina de servicios de software </p>
+          <p className='p2'>Oficina remota de soluciones digitales </p>
       </div>
       <div className="column-footer-rows">
         <p className="contact-title">Contacto</p> 

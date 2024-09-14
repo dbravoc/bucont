@@ -7,12 +7,12 @@ import './css/Portafolio.css';
 const solutions = [
   {
     title: 'Tienda online',
-    description: 'Tienda E-Commerce con administración de inventario y pasarelas de pago',
+    description: 'Mejora el crecimiento de tu negocio con nuestro E-Commerce',
     features: [
-      'Sitio e-commerce',
+      'Sitio E-Commerce',
       'Carrito de compra',
       'Pasarelas de pago',
-      'Inventario',
+      'Gestión de inventario',
       'Punto de venta en tienda'
     ],
     gifUrl: demoGifLeTrip,
@@ -57,7 +57,7 @@ export default function Portafolio() {
             <div className="px-10 lg:flex-auto">
               <div className='flex flex-col lg:grid lg:grid-cols-5 gap-x-10'>
                 <div className='col-span-3 lg:p-10'>
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900">{solution.title}</h3>
+                  <a href={solution.visitLink} target="_blank" className="text-xl font-bold tracking-tight text-gray-900">{solution.title}</a>
                   <p className="mt-6 text-left text-base leading-7 text-gray-900">{solution.description}</p>
                   <div className="mt-6 flex items-center gap-x-4"></div>
                   <div className="h-px flex-auto bg-gray-100" />
@@ -70,7 +70,7 @@ export default function Portafolio() {
                     ))}
                   </ul>
                 </div>
-                <div className='py-0 col-span-2 flex justify-center items-center'>
+                {/*<div className='py-0 col-span-2 flex justify-center items-center'>
                   <a href={solution.visitLink} target="_blank" rel="noopener noreferrer">
                     <div className="w-full max-w-md flex-shrink-0">
                       <div className="flex rounded-2xl text-center justify-center">
@@ -80,7 +80,7 @@ export default function Portafolio() {
                       </div>
                     </div>
                   </a>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>

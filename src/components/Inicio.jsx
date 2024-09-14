@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import './css/Inicio.css';
 import logo from '../assets/img/logos/logo bucont.png'
+import GIFBucont from '../assets/img/GIF Bucont.gif';
+
 
 const RotatingText = () => {
   const texts = 
@@ -49,7 +51,7 @@ export default function Inicio() {
         </div>
       </div>
       <div>
-          <img className='w-52 h-auto' src="src/assets/img/GIF Bucont.gif" alt="" />
+          <img className='w-52 h-auto' src={GIFBucont} alt="" />
       </div>
       </div>
     </>

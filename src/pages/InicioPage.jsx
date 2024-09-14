@@ -2,6 +2,7 @@ import Inicio from '../components/Inicio';
 import QueHacemos from '../components/QueHacemos';
 import Planes from '../components/Planes';
 import Footer from '../components/Footer';
+import PreFooter from '../components/PreFooter';
 import Portafolio from '../components/Portafolio'
 
 const InicioPage = () => {
@@ -17,10 +18,13 @@ const InicioPage = () => {
       <div id="planes" className="bg-gradient-to-b from-white to-cyan-100 w-full pt-10">
         <Planes />
       </div>
-      <div id="planes" className="bg-gradient-to-b from-cyan-100 to-white w-full">
+      <div id="portafolio" className="bg-gradient-to-b from-cyan-100 to-white w-full">
         <Portafolio />
       </div>
-      <div className="bg-black border-t-yellow-500 border-t-2">
+      <div id="prefooter" className="bg-white  w-full py-20">
+        <PreFooter />
+      </div>
+      <div className="bg-black border-t-yellow-500 border-t-2 pt-10 pb-20">
       <Footer />
       </div>
       </>
