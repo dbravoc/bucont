@@ -5,8 +5,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 export default function Inicio() {
   const [isOpen, setIsOpen] = useState(false);
   const navigation = [
-    { name: 'Servicios', href: '#servicios' },
-    { name: 'Portafolio', href: '#planes' },
+    { name: 'Servicios', href: '#planes' },
+    { name: 'Portafolio', href: '#portafolio' },
     
   ];
 
