@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="column-footer-rows">
         <p className="contact-title">Contacto</p> 
-        <p className="contact-info"> david@bucont.com</p>
+        <p className="contact-info"> team@bucont.com</p>
         
       </div>
       <div className="column-footer-rows">

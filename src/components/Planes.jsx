@@ -14,7 +14,9 @@ const features = [
       'Gestión de reservas online',
       'Pasarela de pago',
       'Asistentes con Inteligencia Artificial',
-      'Actualizaciones y soporte continuo'
+      'Actualizaciones y soporte continuo',
+      'Contrato mínimo 6 meses',
+
     ],
     icon: <FontAwesomeIcon icon={faStore} />
   },
@@ -25,7 +27,9 @@ const features = [
       'Estrategias SEO/SEM optimizadas en Google',
       'Campañas publicitarias efectivas en Google Ads',
       'Reportes con Google Analytics',
-      'Actualizaciones y soporte continuo'
+      'Actualizaciones y soporte continuo',
+      'Contrato mínimo 6 meses',
+
     ],
     icon: <FontAwesomeIcon icon={faBullhorn} />
   },
@@ -40,6 +44,8 @@ const features = [
       'Conexión con WhatsApp',
       'Conexión con Hosting + Dominio',
       'Actualizaciones y soporte continuo',
+      'Contrato mínimo 6 meses',
+
     ],
     icon: <FontAwesomeIcon icon={faGlobe} />
   },
@@ -51,7 +57,10 @@ const features = [
       'Metodologías innovación de productos de software',
       'Transformación digital y metodologías ágiles',
       'Construye tu customer journey',
-      'Modelo de negocios y estructura financiera'
+      'Modelo de negocios y estructura financiera',
+      'Sesiones uno a uno',
+      '8 horas cronológicas por programa',
+
     ],
     icon: <FontAwesomeIcon icon={faLightbulb} />
   }

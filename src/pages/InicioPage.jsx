@@ -12,7 +12,7 @@ const InicioPage = () => {
         <Inicio />
       </div>
 
-      <div id="servicios" className="bg-gradient-to-b from-cyan-50 to-white px-2 py-20 w-full">
+      <div id="servicios" className="bg-gradient-to-b from-cyan-50 to-white px-10 py-20 w-full">
       <QueHacemos />
       </div>
       <div id="planes" className="bg-black border-t-2 border-yellow-500 w-full pt-10">
