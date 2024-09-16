@@ -7,7 +7,7 @@ const features = [
 
   {
     name: 'Software para negocios',
-    description: 'Desde 6 UF mensual + IVA',
+    description: 'Desde 8 UF mensual + IVA',
     features: [
       'Tiendas online personalizadas',
       'Carrito de compra',
@@ -22,7 +22,7 @@ const features = [
   },
   {
     name: 'Marketing digital',
-    description: 'Desde 4 UF mensual + IVA',
+    description: 'Desde 6 UF mensual + IVA',
     features: [
       'Estrategias SEO/SEM optimizadas en Google',
       'Campañas publicitarias efectivas en Google Ads',
@@ -35,17 +35,15 @@ const features = [
   },
   {
     name: 'Sitio web',
-    description: 'Desde 1 UF mensual + IVA',
+    description: 'Desde 8 UF por única vez + IVA',
     features: [
+      'El código es tuyo',
       'Diseño desktop y mobile',
       'Desarrollo (no usamos WordPress)',
-      'El código es tuyo',
       'Landing Page',
       'Conexión con WhatsApp',
       'Conexión con Hosting + Dominio',
       'Actualizaciones y soporte continuo',
-      'Contrato mínimo 6 meses',
-
     ],
     icon: <FontAwesomeIcon icon={faGlobe} />
   },
