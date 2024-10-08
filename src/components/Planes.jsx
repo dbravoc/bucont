@@ -1,9 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBrain, faBullhorn, faCalendarAlt, faChalkboardUser, faGlobe, faLightbulb, faStore } from '@fortawesome/free-solid-svg-icons';
+import { faBullhorn, faCalendarAlt, faChalkboardUser, faGlobe, faLightbulb, faStore } from '@fortawesome/free-solid-svg-icons';
 import {  } from '@fortawesome/free-brands-svg-icons';
 import { CheckIcon } from '@heroicons/react/20/solid';
 
 const features = [
+  {
+    name: 'SOLUCIONES A MEDIDA',
+    description: 'Desde 55 UF por desarrollo + IVA',
+    features: [
+      'Software para negocios',
+      'Software as a Service',
+      'Automatización de procesos'
+
+    ],
+    icon: <FontAwesomeIcon icon={faLightbulb} />
+  },
 
   {
     name: 'E-STORE',
@@ -88,17 +99,6 @@ const features = [
       'Página extra 3 UF + IVA'
     ],
     icon: <FontAwesomeIcon icon={faGlobe} />
-  },
-  {
-    name: 'SOLUCIONES A MEDIDA',
-    description: 'Desde 55 UF por desarrollo + IVA',
-    features: [
-      'Software para negocios',
-      'Software as a Service',
-      'Automatización de procesos'
-
-    ],
-    icon: <FontAwesomeIcon icon={faLightbulb} />
   }
 ]
   
