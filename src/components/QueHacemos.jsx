@@ -11,7 +11,7 @@ export default function Inicio() {
     {
       icon: faComments,
       title: "Todo en uno",
-      description: "Bucont gestiona todo lo digital: marketing, ventas online, estrategia y administración de tu negocio."
+      description: "Bucont gestiona todo lo digital: Marketing, Canales de Ventas, Operación Comercial y Administración de tu Negocio."
     },
     {
       icon: faMoneyBillTrendUp,

@@ -1,27 +1,68 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullhorn, faGlobe, faLightbulb, faStore } from '@fortawesome/free-solid-svg-icons';
+import { faBrain, faBullhorn, faCalendarAlt, faChalkboardUser, faGlobe, faLightbulb, faStore } from '@fortawesome/free-solid-svg-icons';
 import {  } from '@fortawesome/free-brands-svg-icons';
 import { CheckIcon } from '@heroicons/react/20/solid';
 
 const features = [
 
   {
-    name: 'Software para negocios',
+    name: 'E-STORE',
     description: 'Desde 8 UF mensual + IVA',
     features: [
-      'Tiendas online personalizadas',
+      'Tienda Virtual E-Commerce',
       'Carrito de compra',
-      'Gestión de reservas online',
-      'Pasarela de pago',
-      'Asistentes con Inteligencia Artificial',
+      'Pasarela de pago ',
+      'Recomendaciones crosselling',
+      'Notificaciones por email automáticas',
+      'Ingreso de ventas manuales',
+      'Administración de stock',
+      'Administración de productos',
+      'Administración de ventas',
       'Actualizaciones y soporte continuo',
       'Contrato mínimo 6 meses',
 
+
     ],
+    
     icon: <FontAwesomeIcon icon={faStore} />
   },
   {
-    name: 'Marketing digital',
+    name: 'E-BOOKING',
+    description: 'Desde 8 UF mensual + IVA',
+    features: [
+      'Sitio de Reservas',
+      'Carrito de compra',
+      'Pasarela de pago ',
+      'Notificaciones por email automáticas',
+      'Administración de reservas',
+      'Administración de ventas',
+      'Actualizaciones y soporte continuo',
+      'Contrato mínimo 6 meses',
+
+
+    ],
+    
+    icon: <FontAwesomeIcon icon={faCalendarAlt} />
+  },
+  {
+    name: 'AI ASSISTANT',
+    description: 'Desde 8 UF mensual + IVA',
+    features: [
+      'Diseño del asistente a medida',
+      'Ingeniería de Prompt',
+      'Integración con OpenAI',
+      'Desarrollo Backend',
+      'Integración con sistema cliente',
+      'Actualizaciones y soporte continuo',
+      'Contrato mínimo 6 meses',
+
+
+    ],
+    
+    icon: <FontAwesomeIcon icon={faChalkboardUser} />
+  },
+  {
+    name: 'MARKETING DIGITAL',
     description: 'Desde 6 UF mensual + IVA',
     features: [
       'Estrategias SEO/SEM optimizadas en Google',
@@ -34,30 +75,27 @@ const features = [
     icon: <FontAwesomeIcon icon={faBullhorn} />
   },
   {
-    name: 'Sitio web',
+    name: 'SITIO WEB PERSONALIZADO',
     description: 'Desde 8 UF por única vez + IVA',
     features: [
-      'El código es tuyo',
-      'Diseño desktop y mobile',
-      'Desarrollo (no usamos WordPress)',
+      'One Page',
+      'Diseño personalizado mobile y desktop',
+      'Desarrollo propio',
       'Landing Page',
       'Conexión con WhatsApp',
-      'Conexión con Hosting + Dominio',
+      'Conexión con Hosting + Dominio 1 año',
       'Actualizaciones y soporte continuo',
+      'Página extra 3 UF + IVA'
     ],
     icon: <FontAwesomeIcon icon={faGlobe} />
   },
   {
-    name: 'Consultoría estratégica personalizada',
-    description: '13 UF por programa + IVA',
+    name: 'SOLUCIONES A MEDIDA',
+    description: 'Desde 55 UF por desarrollo + IVA',
     features: [
-      'Herramientas de inteligencia artificial para tu negocio',
-      'Metodologías innovación de productos de software',
-      'Transformación digital y metodologías ágiles',
-      'Construye tu customer journey',
-      'Modelo de negocios y estructura financiera',
-      'Sesiones uno a uno',
-      '8 horas cronológicas por programa',
+      'Software para negocios',
+      'Software as a Service',
+      'Automatización de procesos'
 
     ],
     icon: <FontAwesomeIcon icon={faLightbulb} />
@@ -70,7 +108,7 @@ const features = [
         <div className="mx-auto grid grid-cols-1 gap-x-8 py-1">
           <div>
           <div className="tracking-tight font-bold text-cyan-50 text-3xl text-center">
-            SERVICIOS
+            PRODUCTOS Y SERVICIOS
           </div>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-4 p-10">
               {features.map((feature) => (
