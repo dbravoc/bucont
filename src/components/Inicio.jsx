@@ -10,7 +10,7 @@ const RotatingText = () => {
   'Software para negocios',
   'Marketing digital', 
   'Sitios web',
-  'Consultoría estratégica'
+  'Soluciones a medida'
 
   ];
 
