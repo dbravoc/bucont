@@ -17,7 +17,7 @@ const features = [
   },
 
   {
-    name: 'E-STORE',
+    name: 'E-COMMERCE',
     description: 'Desde 8 UF mensual + IVA',
     features: [
       'Tienda Virtual E-Commerce',
