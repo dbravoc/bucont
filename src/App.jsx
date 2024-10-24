@@ -18,9 +18,12 @@ const App = () => {
               <>
                 <Header />
                 <InicioPage />
+             {/* Botón de WhatsApp barra 
+
                 <div className="fixed bottom-0 w-full">
                   <WhatsAppButton />
                 </div>
+                */}
               </>
             }
           />

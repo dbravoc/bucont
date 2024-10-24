@@ -1,6 +1,6 @@
 import './css/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import logo from '../assets/img/logos/logo bucont.png'
 
 
@@ -27,6 +27,17 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} size="xl" className="text-white" />
           </a>
         </div> 
+        
+              {/* Botón de WhatsApp sticky */}
+      <a
+        href="https://wa.me/56994337091?text=Hola,%20quisiera%20más%20información%20de%CSR" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className='fixed bottom-5 right-5 w-16 h-16 ButtonWhatsapp text-white bg-green-600 rounded-full shadow-lg flex items-center justify-center transition-colors duration-300 hover:bg-green-600'
+        aria-label='Chat with us on WhatsApp'
+      >
+        <FontAwesomeIcon icon={faWhatsapp} className='text-4xl' />
+      </a>
       
       </div> 
 
