@@ -30,7 +30,7 @@ const Footer = () => {
         
               {/* Botón de WhatsApp sticky */}
       <a
-        href="https://wa.me/56992438343?text=Hola,%20quisiera%20más%20información%20de%CSR" 
+        href="https://wa.me/56992438343?text=Hola,%20quisiera%20más%20información%20de%Bucont" 
         target="_blank" 
         rel="noopener noreferrer"
         className='fixed bottom-5 right-5 w-16 h-16 ButtonWhatsapp text-white bg-green-600 rounded-full shadow-lg flex items-center justify-center transition-colors duration-300 hover:bg-green-600'
