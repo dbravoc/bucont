@@ -74,7 +74,7 @@ const features = [
   },
   {
     name: 'MARKETING DIGITAL',
-    description: 'Desde 6 UF mensual + IVA',
+    description: 'Desde 7 UF mensual + IVA',
     features: [
       'Estrategias SEO/SEM optimizadas en Google',
       'Campañas publicitarias efectivas en Google Ads',
